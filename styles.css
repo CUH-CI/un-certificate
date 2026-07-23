@@ -1,0 +1,240 @@
+/* css styles */
+
+/* ── Hero banner ─────────────────────────── */
+.hero-banner {
+  background: linear-gradient(135deg, #1D9E75 0%, #0C447C 100%);
+  color: white;
+  padding: 5rem 3rem;
+  margin: -1.5rem -1.5rem 3rem -1.5rem;
+  text-align: center;
+}
+
+.hero-banner h1 {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-banner h3 {
+  color: rgba(255,255,255,0.85);
+  font-weight: 400;
+  font-size: 1.15rem;
+  max-width: 650px;
+  margin: 0 auto 2rem auto;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ── Course intro ────────────────────────── */
+.course-intro {
+  max-width: 750px;
+  margin: 0 auto 3rem auto;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* ── Stats row ───────────────────────────── */
+.course-stats {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3.5rem;
+}
+
+.stat-box {
+  background: #E1F5EE;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  min-width: 120px;
+  font-size: 0.9rem;
+  color: #0F6E56;
+}
+
+.stat-box strong {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1D9E75;
+  line-height: 1;
+  margin-bottom: 0.3rem;
+}
+
+/* ── Week cards ──────────────────────────── */
+.week-cards {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.week-cards h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.week-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #1D9E75;
+  transition: box-shadow 0.2s;
+}
+
+.week-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.week-card h3 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #1D9E75;
+  margin-bottom: 0.25rem;
+}
+
+.week-card strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #1A1A1A;
+  margin-bottom: 0.25rem;
+}
+
+.week-card p {
+  color: #555;
+  font-size: 0.92rem;
+  margin-bottom: 0.75rem;
+}
+
+.week-card a {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* ── Week cards grid ─────────────────────── */
+.week-cards-section {
+  max-width: 1000px;
+  margin: 0 auto 4rem auto;
+}
+
+.week-cards-section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.week-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+/* Last card (week 5-6) spans full width */
+.week-cards-grid .week-card:last-child {
+  grid-column: 1 / -1;
+}
+
+.week-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+
+.week-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.week-card-header {
+  background: #1D9E75;
+  padding: 0.6rem 1.25rem;
+}
+
+.week-card-header h3 {
+  color: white;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+
+.week-card-body {
+  padding: 1.25rem;
+}
+
+.week-card-body strong {
+  display: block;
+  font-size: 1.05rem;
+  color: #1A1A1A;
+  margin-bottom: 0.3rem;
+}
+
+.week-card-body p {
+  color: #555;
+  font-size: 0.92rem;
+  margin-bottom: 0.75rem;
+}
+
+.week-card-body a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #185FA5;
+}
+
+.due-date {
+  background: #E6F1FB;
+  color: #0C447C;
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  display: inline-block;
+}
+
+/* ── Contact section ─────────────────────── */
+.contact-section {
+  background: #F1EFE8;
+  padding: 3rem;
+  margin: 0 -1.5rem -1.5rem -1.5rem;
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border-top: 3px solid #1D9E75;
+}
+
+.contact-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  color: #1A1A1A;
+}
+
+.contact-card p {
+  font-size: 0.92rem;
+  color: #555;
+  line-height: 1.7;
+  margin: 0;
+}

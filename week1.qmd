@@ -102,7 +102,7 @@ Each module has a short (~10 min) lecture video embedded on the week's page. Wat
 :::
 ::: {.flow-step-content}
 **Read through the module**
-Work through the interactive elements - flip cards, timelines, hotspots — and complete the field trip to a real Pacific CI platform.
+Read through the week's content that are reflected in the lecture video.
 :::
 :::
 

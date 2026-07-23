@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+
+// Google Font import
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap');
+
+// Color palette — Pacific inspired
+$primary:   #185FA5;   // blue
+$secondary: #1D9E75;   // teal
+$light:     #E1F5EE;   // light teal
+$dark:      #1A1A1A;   // near black
+
+// Fonts
+$font-family-sans-serif: "DM Sans", sans-serif;
+$headings-font-weight: 600;
+
+// Navbar
+$navbar-bg: $primary;
+$navbar-fg: #ffffff;
+
+// Links
+$link-color: $secondary;
+$link-hover-color: #0F6E56;
+
+/*-- scss:rules --*/
+
+body {
+  color: $dark;
+}
+
+h1, h2, h3, h4 {
+  font-family: "DM Sans", sans-serif;
+}

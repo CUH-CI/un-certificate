@@ -1,7 +1,169 @@
 ---
-title: "Cyberinfrastructure Fundamentals"
+title: ""
+page-layout: full
+toc: false
 ---
 
-This is a Quarto website.
+::: {.hero-banner}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Cyberinfrastructure Fundamentals
+### A short course on cyberinfrastructure and its role in addressing sustainability challenges in the Pacific region
+
+::: {.hero-buttons}
+[Get Started → Week 1](week1.qmd){.btn .btn-primary .btn-lg}
+:::
+
+:::
+
+::: {.course-intro}
+
+## What is this course about?
+
+Pacific Islands are on the front lines of climate change - rising seas, intensifying typhoons, and shrinking freshwater supplies threaten communities across the region. To address these challenges, what tools, resources, and data exist? 
+
+This course introduces **cyberinfrastructure** - the hardware, software, data systems, networks, and human capacity that power modern research - and explores how it can be leveraged for sustainability decision-making in Small Island Developing States (SIDS) and the Pacific region.
+
+No coding experience required. Just curiosity and a commitment to the Pacific.
+
+:::
+
+::: {.course-stats}
+
+::: {.stat-box}
+**6**
+Weeks
+:::
+
+::: {.stat-box}
+**8**
+Modules
+:::
+
+
+::: {.stat-box}
+**1**
+Final Project
+:::
+
+:::
+
+
+## Course Outline
+
+::: {.week-cards-grid}
+
+::: {.week-card}
+::: {.week-card-header}
+### Week 1
+:::
+::: {.week-card-body}
+**Getting Started**
+
+CI Foundations and Course Introduction
+
+::: {.due-date}
+📅 Due Sunday, end of Week 1 - 11:59pm HST
+:::
+
+[→ Go to Week 1](week1.qmd)
+:::
+:::
+
+::: {.week-card}
+::: {.week-card-header}
+### Week 2
+:::
+::: {.week-card-body}
+**The Pacific Context and CI Tools**
+
+Pacific Introduction and Tools Overview
+
+::: {.due-date}
+📅 Due Sunday, end of Week 2 - 11:59pm HST
+:::
+
+[→ Go to Week 2](week2.qmd)
+:::
+:::
+
+::: {.week-card}
+::: {.week-card-header}
+### Week 3
+:::
+::: {.week-card-body}
+**Accessing CI and How It Works**
+
+NSF Resources and Cloud/HPC Infrastructure
+
+::: {.due-date}
+📅 Due Sunday, end of Week 3 - 11:59pm HST
+:::
+
+[→ Go to Week 3](week3.qmd)
+:::
+:::
+
+::: {.week-card}
+::: {.week-card-header}
+### Week 4
+:::
+::: {.week-card-body}
+**From Data to Decisions**
+
+Translating CI Outputs Into Sustainability Policy
+
+::: {.due-date}
+📅 Due Sunday, end of Week 4 - 11:59pm HST
+:::
+
+[→ Go to Week 4](week4.qmd)
+:::
+:::
+
+::: {.week-card}
+::: {.week-card-header}
+### Weeks 5–6
+:::
+::: {.week-card-body}
+**Final Project**
+
+Drafting and Finalizing Policy Brief Project
+
+::: {.due-date}
+📅 Policy brief due Sunday, end of Week 6 - 11:59pm HST
+:::
+
+[→ Final Project](project.qmd)
+:::
+
+
+:::
+:::
+
+::: {.contact-section}
+
+## Contact & Office Hours
+
+::: {.contact-grid}
+
+::: {.contact-card}
+### 📧 Email
+[victoria.delacruz@chaminade.edu](mailto:victoria.delacruz@chaminade.edu)
+:::
+
+::: {.contact-card}
+### 🕐 Office Hours
+**Virtual - via Zoom**
+
+Tuesdays 11 am - 12 pm HST
+
+**In Person - Tredtin 202, Chaminade University**
+
+Wednesdays 12:00 - 1 pm HST
+
+Or by appointment - email to schedule.
+:::
+
+:::
+
+:::

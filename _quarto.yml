@@ -1,21 +1,59 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "Cyberinfrastructure Fundamentals"
+  description: "An introductory course on cyberinfrastructure for sustainability in the Pacific region"
+  
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Week 1"
+        menu:
+          - text: "1A: Course Introduction"
+            href: week1.qmd#course-introduction
+          - text: "1B: CI Foundations"
+            href: week1.qmd#ci-foundations
+      - text: "Week 2"
+        menu:
+          - text: "2A: Pacific Introduction"
+            href: week2.qmd#pacific-introduction
+          - text: "2B: Tools"
+            href: week2.qmd#tools
+      - text: "Week 3"
+        menu:
+          - text: "3A: Accessing Cyberinfrastructure"
+            href: week3.qmd#accessing-cyberinfrastructure
+          - text: "3B: How It Works"
+            href: week3.qmd#how-it-works
+      - text: "Week 4"
+        menu:
+         - text: "Data to Decisions"
+           href: week4.qmd
+      - text: "Weeks 5 & 6"
+        menu:
+          - text: "Final Project"
+            href: project.qmd
+    right:
+      - text: "📋 Google Classroom"
+        href: "https://classroom.google.com"
+        target: _blank
+
+  page-footer:
+    left: "Cyberinfrastructure Fundamentals"
+    right: "Chaminade University of Honolulu"
+
+  sidebar: false
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: [cosmo, custom.scss]
     css: styles.css
     toc: true
-
-
-
+    toc-depth: 2
+    toc-title: "On this page"
+    smooth-scroll: true
+    link-external-newwindow: true

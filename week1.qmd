@@ -1,4 +1,171 @@
 ---
-title: "week1"
-editor: visual
+title: "Week 1 - Getting Started"
+toc: true
+toc-title: "On this page"
 ---
+
+## Course Introduction {#course-introduction}
+
+::: {.video-placeholder}
+🎬 **Welcome Video**
+
+*Your welcome video will go here. To embed a YouTube video, replace this block with:*
+
+```{{=html}}
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/YOUR-VIDEO-ID" 
+title="Course Introduction" frameborder="0" allowfullscreen></iframe>
+```
+
+
+---
+
+## Getting Set Up
+
+Before diving into the content, complete these three steps to get your course environment ready.
+
+::: {.setup-cards}
+
+::: {.setup-card}
+### 1. Join Google Classroom
+Click the link below to join the course Google Classroom. This is where you'll submit assignments, participate in discussions, and receive feedback.
+
+[→ Join Google Classroom](https://classroom.google.com){.btn .btn-primary target="_blank"}
+:::
+
+::: {.setup-card}
+### 2. Bookmark this site
+Add this course site to your browser bookmarks - it's your home base for all course content, lecture videos, and module instructions. Every week you'll start here.
+:::
+
+::: {.setup-card}
+### 3. Make a copy of the Portfolio Template
+Your **Pacific CI Portfolio** is a Google Doc you'll add to each week. By Week 5 it becomes the foundation of your final project.
+
+[→ Make a copy of the Portfolio Template](https://docs.google.com/){.btn .btn-primary target="_blank"}
+
+*Once you've made your copy, keep the link handy - you'll submit it in Google Classroom each week.*
+:::
+
+:::
+
+---
+
+## Course Outcomes
+
+By the end of this course you will be able to:
+
+::: {.outcomes-grid}
+
+::: {.outcome-card}
+**🌏 Understand CI in context**
+Define cyberinfrastructure and explain why it matters specifically for Small Island Developing States and Pacific sustainability challenges.
+:::
+
+::: {.outcome-card}
+**🛠️ Navigate real tools**
+Identify and explore key CI tools and platforms - including NSF resources, science gateways, and cloud platforms - relevant to Pacific sustainability research.
+:::
+
+::: {.outcome-card}
+**📊 Bridge data and decisions**
+Analyze how CI outputs are translated into actionable indicators and policy decisions, and recognize where gaps and equity concerns arise.
+:::
+
+::: {.outcome-card}
+**📄 Produce a policy brief**
+Design a CI-informed policy brief proposing how cyberinfrastructure could improve sustainability decision-making for a Pacific island nation of your choosing.
+:::
+
+:::
+
+---
+
+## How This Course Works
+
+Each week follows the same rhythm - so once you know the pattern, you always know what to expect.
+
+::: {.flow-steps}
+
+::: {.flow-step}
+::: {.flow-step-number}
+1
+:::
+::: {.flow-step-content}
+**Watch the lecture video**
+Each module has a short (~10 min) lecture video embedded on the week's page. Watch it first before moving on.
+:::
+:::
+
+::: {.flow-step}
+::: {.flow-step-number}
+2
+:::
+::: {.flow-step-content}
+**Read through the module**
+Work through the interactive elements - flip cards, timelines, hotspots — and complete the field trip to a real Pacific CI platform.
+:::
+:::
+
+::: {.flow-step}
+::: {.flow-step-number}
+3
+:::
+::: {.flow-step-content}
+**Complete the mini-assignment**
+As described in the mini-assignment for each week, add a new section to your Pacific CI Portfolio and submit the link in Google Classroom by Sunday 11:59pm HST.
+:::
+:::
+
+::: {.flow-step}
+::: {.flow-step-number}
+4
+:::
+::: {.flow-step-content}
+**Join the discussion**
+Respond to the weekly discussion prompt in Google Classroom - 2–3 sentences minimum.
+:::
+:::
+
+:::
+
+---
+
+## Course Project
+
+Over the four instructional weeks you'll build a **Pacific CI Portfolio** - a living document that captures your work week by week. In Weeks 5 and 6 you'll assemble that portfolio into a **policy brief** proposing how cyberinfrastructure could improve sustainability decision-making for a Pacific island nation of your choosing.
+
+No prior technical experience is needed. The policy brief is assessed on your reasoning, your use of real CI tools and datasets from the course, and your ability to identify gaps and equity concerns honestly.
+
+[→ Read more about the Final Project](project.qmd){.btn .btn-outline-primary}
+
+---
+
+## ✅ Tasks to Complete This Module
+
+Complete these before moving on to Module 1B.
+
+::: {.task-list}
+
+::: {.task-item}
+☐ **Join Google Classroom** - use the link in the Getting Set Up section above
+:::
+
+::: {.task-item}
+☐ **Make a copy of the Portfolio Template** - keep the link somewhere important
+:::
+
+::: {.task-item}
+☐ **Share your portfolio link** - submit it in the Week 1 Google Classroom assignment (make sure you set the correct sharing permissions so I can see it!)
+:::
+
+::: {.task-item}
+☐ **Introduce yourself** - post a short intro in the Week 1 discussion thread in Google Classroom (name, where you're from, why you joined the course, etc.)
+:::
+
+:::
+
+---
+
+::: {.next-module}
+Ready? Let's get started! →  [Module 1B: CI Foundations](week1.qmd#ci-foundations)
+:::

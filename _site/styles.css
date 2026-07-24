@@ -238,3 +238,234 @@
   line-height: 1.7;
   margin: 0;
 }
+
+/* ── Video placeholder ───────────────────── */
+.video-placeholder {
+  background: #F1EFE8;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid #1D9E75;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+.video-placeholder strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #1A1A1A;
+  margin-bottom: 0.5rem;
+}
+
+/* ── Setup cards ─────────────────────────── */
+.setup-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.setup-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border-top: 3px solid #1D9E75;
+}
+
+.setup-card h3 {
+  font-size: 1rem;
+  color: #1D9E75;
+  margin-bottom: 0.75rem;
+}
+
+.setup-card p {
+  font-size: 0.92rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* ── Outcomes grid ───────────────────────── */
+.outcomes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.outcome-card {
+  background: #E1F5EE;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.outcome-card strong {
+  display: block;
+  font-size: 1rem;
+  color: #0F6E56;
+  margin-bottom: 0.5rem;
+}
+
+.outcome-card p {
+  font-size: 0.92rem;
+  color: #1A1A1A;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ── Course flow steps ───────────────────── */
+.flow-steps {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1rem !important;
+  margin: 1.5rem 0 2rem 0 !important;
+}
+
+.flow-step {
+  display: flex !important;
+  gap: 1.25rem !important;
+  align-items: flex-start !important;
+}
+
+.flow-step-number {
+  min-width: 42px !important;
+  height: 42px !important;
+  border-radius: 50% !important;
+  background: #1D9E75 !important;
+  color: white !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  margin-top: 0 !important;
+  line-height: 1 !important;
+}
+
+.flow-step-content {
+  padding-top: 0.3rem !important;
+  font-size: 0.95rem !important;
+  color: #555 !important;
+  line-height: 1.7 !important;
+}
+
+.flow-step-content strong {
+  display: block !important;
+  color: #1A1A1A !important;
+  margin-bottom: 0.2rem !important;
+}
+
+.flow-step-number p {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1 !important;
+}
+
+/* ── Task list ───────────────────────────── */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.task-item {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  font-size: 0.95rem;
+  color: #1A1A1A;
+  line-height: 1.6;
+}
+
+.task-item strong {
+  color: #1A1A1A;
+}
+
+/* ── Next module link ────────────────────── */
+.next-module {
+  background: #1D9E75;
+  color: white;
+  border-radius: 12px;
+  padding: 1.25rem 1.75rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.next-module a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.next-module a:hover {
+  text-decoration: underline;
+}
+
+/* ── Module tag ──────────────────────────── */
+.module-tag {
+  display: inline-block;
+  background: #1D9E75;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ── Resource link ───────────────────────── */
+.resource-link {
+  background: #E1F5EE;
+  border-radius: 8px;
+  padding: 0.85rem 1.25rem;
+  margin: 1rem 0;
+  font-size: 0.92rem;
+  color: #0F6E56;
+}
+
+/* ── Field trip box ──────────────────────── */
+.fieldtrip-box {
+  background: #E6F1FB;
+  border-left: 4px solid #185FA5;
+  border-radius: 0 8px 8px 0;
+  padding: 1.25rem 1.5rem;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  color: #0C447C;
+}
+
+.fieldtrip-box strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #0C447C;
+}
+
+/* ── Assignment box ──────────────────────── */
+.assignment-box {
+  background: #FAEEDA;
+  border-left: 4px solid #BA7517;
+  border-radius: 0 8px 8px 0;
+  padding: 1.25rem 1.5rem;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  color: #633806;
+}
+
+.assignment-box strong {
+  color: #633806;
+}
+
+.assignment-box ol {
+  margin: 0.75rem 0;
+  padding-left: 1.25rem;
+  line-height: 1.8;
+}

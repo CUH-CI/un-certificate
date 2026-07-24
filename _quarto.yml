@@ -53,7 +53,7 @@ format:
       light: [cosmo, custom.scss]
     css: styles.css
     toc: true
-    toc-depth: 2
+    toc-depth: 3
     toc-title: "On this page"
     smooth-scroll: true
     link-external-newwindow: true

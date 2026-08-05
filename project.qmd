@@ -1,4 +1,180 @@
 ---
-title: "project"
-editor: visual
+title: "Weeks 5-6 - Final Project"
+toc: true
+toc-title: "On this page"
 ---
+
+::: {.module-tag}
+Final Project
+:::
+
+## Overview
+
+Over the four instructional weeks you built a **Pacific CI Portfolio** - a living document capturing your work week by week. Now it's time to assemble that portfolio into your final deliverable: a **policy brief** proposing how cyberinfrastructure could improve sustainability decision-making for your chosen Pacific island nation.
+
+This project is designed to be accessible to students of all technical backgrounds. Clear thinking, honest analysis, and understanding the specific use of real CI tools and datasets are the objectives of this course.
+
+---
+
+## The Policy Brief
+
+Your policy brief should be **3–5 pages** and follow the five-section structure below. Each section connects directly to work you've already done in your portfolio.
+
+::: {.assignment-box}
+**Five-Section Structure**
+
+1. **The sustainability problem**
+Describe the challenge, who is affected, and why it matters now. Draw from your Week 1 data audit.
+
+2. **The CI landscape**
+What data, tools, and infrastructure currently exist for this challenge - and what is critically missing? Draw from your Week 2 CI tool stack, Week 3 CI stack reflection, and Week 4 pipeline map.
+
+3. **The recommendation**
+How could improved or better-used cyberinfrastructure improve decision-making for this challenge? Be specific - name tools, platforms, or data types. Draw from Weeks 3 and 4.
+
+4. **Limitations and equity concerns**
+What could go wrong? What access, sovereignty, or capacity barriers apply? Who might be excluded from the solution you're proposing?
+
+5. **Call to action**
+One sentence: what should a specific, named decision-maker do - and by when?
+:::
+
+---
+
+## What Makes a Strong Policy Brief
+
+::: {.outcomes-grid}
+
+::: {.outcome-card}
+**🏝️ Specific and grounded**
+Names a specific Pacific island nation and a specific sustainability challenge - not a general topic.
+:::
+
+::: {.outcome-card}
+**🛠️ Uses real tools**
+References at least two real CI tools, datasets, or platforms encountered during the course.
+:::
+
+::: {.outcome-card}
+**🔍 Identifies a concrete gap**
+Names a specific CI gap - not just "more data is needed" but what data, held by whom, used by whom.
+:::
+
+::: {.outcome-card}
+**⚖️ Acknowledges equity**
+Includes a frank limitations section acknowledging equity, access, or sovereignty concerns.
+:::
+
+::: {.outcome-card}
+**📢 Clear call to action**
+Ends with a call to action addressed to a real, named decision-maker - not a generic recommendation.
+:::
+
+::: {.outcome-card}
+**📁 Builds on your portfolio**
+Draws visibly from your Pacific CI Portfolio - the brief should feel earned, not written from scratch.
+:::
+
+:::
+
+---
+
+## How Your Portfolio Feeds Into the Brief
+
+| Portfolio section | Feeds into brief as... |
+|---|---|
+| Week 1 — Data audit | Section 1: The sustainability problem |
+| Week 2 — CI tool stack | Section 2: CI landscape (collection layer) |
+| Week 3 — CI stack reflection | Section 2 + 3: CI landscape (compute layer) + evidence for recommendation |
+| Week 4 — Stakeholder + CI pipeline map | Section 2 + 4: CI landscape (decision layer) + limitations |
+
+---
+
+## The Presentation
+
+Along with your policy brief, you will record a **5-minute video presentation** summarizing your work. Slides are recommended but not required.
+
+::: {.fieldtrip-box}
+**Your presentation should cover:**
+
+1. Self-introduction (name, background, etc.)
+2. Your island country and sustainability challenge - why you chose it
+3. The CI landscape — what exists and what's missing
+4. Your recommendation — what CI could improve decision-making and how
+5. Your call to action — who should do what, and by when
+
+**Recording tips:**
+- Use Zoom, Loom, or any screen recording tool you're comfortable with
+- If using slides, keep them simple - 4–5 slides maximum
+- Speak clearly and at a natural pace - 5 minutes goes faster than you think
+- Submit your video link or file in Google Classroom
+:::
+
+---
+
+## Week 5 - Scoping and Drafting
+
+Week 5 is your dedicated drafting week. Open your Pacific CI Portfolio and begin assembling your policy brief. You are not starting from scratch - you are synthesizing work you have already done across four weeks.
+
+::: {.assignment-box}
+**Week 5 deliverable - outline + evidence inventory**
+
+Before writing your full draft, submit a brief outline in Google Classroom covering:
+
+- Your island country and sustainability challenge
+- A one-sentence summary of your recommendation
+- A list of the CI tools, datasets, and platforms you plan to reference
+- Any sections you feel uncertain about
+
+Please allow *48 hours* for feedback from the instructor.  
+
+[→ Submit Week 5 Outline in Google Classroom](https://classroom.google.com){.btn .btn-primary target="_blank"}
+:::
+
+::: {.task-list}
+
+::: {.task-item}
+☐ **Submit your Week 5 outline** - island country, challenge, recommendation summary, and evidence inventory
+:::
+
+:::
+
+---
+
+## Week 6 - Finalizing and Presenting
+
+Week 6 is your finishing and submission week. Incorporate feedback from your Week 5 outline, complete your policy brief, and record your presentation.
+
+::: {.assignment-box}
+**Week 6 Deliverables**
+
+**1. Policy brief** - 3–5 pages following the five-section structure. Submit as a PDF or Google Doc in Google Classroom.
+
+**2. Recorded presentation** - 5-minute video summarizing your policy brief. Slides recommended. Submit your video link or file in Google Classroom.
+
+[→ Submit Week 6 Final Project in Google Classroom](https://classroom.google.com){.btn .btn-primary target="_blank"}
+:::
+
+::: {.task-list}
+
+::: {.task-item}
+☐ **Complete your policy brief** - 3–5 pages, five-section structure, submitted as PDF or Google Doc
+:::
+
+::: {.task-item}
+☐ **Record your presentation** - 5-minute video, slides recommended
+:::
+
+::: {.task-item}
+☐ **Submit both in Google Classroom** by the end of Week 6
+:::
+
+:::
+
+---
+
+::: {.next-module}
+🎉 You made it through the course - good luck with your final project! 
+
+After review of your policy brief and presentation, your U.N. certificate will be sent to you. For any questions, comments, or feedback, please email victoria.delacruz@chaminade.edu
+:::

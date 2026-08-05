@@ -1,4 +1,129 @@
 ---
-title: "week4"
-editor: visual
+title: "Week 4 - From Data to Decisions"
+toc: true
+toc-title: "On this page"
 ---
+
+## Data to Decisions {#data-to-decisions}
+
+::: {.module-tag}
+Module 4
+:::
+
+### 🪝 Hook
+
+Imagine this scenario: a government official in Tuvalu has a PACCSAP climate report on her desk. It has projections, probability distributions, and confidence intervals. Her meeting with the village council is in one hour. The council needs to decide whether to relocate a coastal community - a decision that will affect hundreds of families.
+
+What does she actually say?
+
+This is the last-mile problem - the gap between what cyberinfrastructure produces and what decision-makers can actually use. This module is about bridging that gap.
+
+---
+
+### 🎬 Lecture Video
+
+::: {.video-placeholder}
+**Data to Decisions — Lecture Video (~10 min)**
+
+*Your lecture video will go here. To embed a YouTube video, replace this block with:*
+
+```{{=html}}
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/YOUR-VIDEO-ID" 
+title="Data to Decisions" frameborder="0" allowfullscreen></iframe>
+```
+
+:::
+
+---
+
+### 🗺️ Hands-on Use Case - Vanuatu National Adaptation Plan
+
+National Adaptation Plans (NAPs) are real government documents that show how CI-derived data - climate projections, sea level models, disaster risk assessments - gets translated into policy decisions. Vanuatu's NAP is one of the most developed in the Pacific and draws directly on PACCSAP climate projections generated on HPC infrastructure.
+
+::: {.fieldtrip-box}
+**Your task this module:**
+
+Find and read the evidence and data section of a Pacific National Adaptation Plan. You can use Vanuatu's NAP or find one for your chosen island country.
+
+- NAPs are available via [UNFCCC NAP Central](https://napcentral.org){target="_blank"} - search for your island country or browse the Pacific region
+- Read the evidence and data section (~5–10 pages)
+
+**What to look for:**
+
+- What data and CI tools are referenced in the plan?
+- How are climate projections translated into specific policy recommendations?
+- Who is identified as responsible for acting on the data?
+- What data gaps or limitations are acknowledged?
+:::
+
+::: {.resource-link}
+📖 **Read more:** [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care){target="_blank"} — approximately 4 pages. Consider how each principle applies to Pacific data governance contexts.
+:::
+
+---
+
+### 📋 Mini Assignment - Stakeholder + CI Pipeline Map
+
+::: {.assignment-box}
+**Week 4 Assignment - Stakeholder + CI Pipeline Map**
+
+For your chosen island country and sustainability challenge, produce a structured map covering the following five areas. This map becomes the evidence section of your policy brief in Weeks 5 and 6 - so be as specific and honest as you can. Identifying gaps is just as valuable as identifying what exists.
+
+1. **The sustainability problem:** One clear sentence describing the challenge and who is affected.
+2. **Key decision-makers:** Who are the 2–3 people or institutions that make decisions about this challenge? (e.g. Ministry of Environment, village council, regional fisheries body)
+3. **CI that currently exists:** What data, platforms, or models are already available for this challenge? Reference tools or datasets you've encountered in Weeks 1–3.
+4. **What is missing:** What CI gap most limits good decision-making here? Be specific — not just "more data" but what kind, held by whom, used by whom.
+5. **Who is excluded:** Who is affected by this challenge but left out of the data collection or the decision-making process?
+
+Add your responses to the **Week 4 section of your Pacific CI Portfolio** Google Doc and submit the link in Google Classroom.
+
+[→ Submit Week 4 Assignment in Google Classroom](https://classroom.google.com){.btn .btn-primary target="_blank"}
+:::
+
+---
+
+### 💬 Discussion Prompt
+
+**This week's discussion is in Google Classroom.**
+
+> *"You mapped who is excluded from the data or the decision. Was that more or less than you expected - and what does it tell you about where cyberinfrastructure needs to go next in the Pacific?"*
+
+Respond in 2–3 sentences.
+
+[→ Go to Week 4 Discussion in Google Classroom](https://classroom.google.com){.btn .btn-outline-primary target="_blank"}
+
+---
+
+### ✨ Inspire
+
+> *"The gap between data and decisions is where cyberinfrastructure meets policy - and where you can make the most difference. Your policy brief starts now. You already have everything you need."*
+
+---
+
+### ✅ Tasks to Complete - Module 4
+
+::: {.task-list}
+
+::: {.task-item}
+☐ **Watch the lecture video** - Data to Decisions (~10 min)
+:::
+
+::: {.task-item}
+☐ **Go through the hands-on use case** - read the evidence section of a Pacific National Adaptation Plan
+:::
+
+::: {.task-item}
+☐ **Submit your mini assignment** - add the stakeholder + CI pipeline map to your Pacific CI Portfolio and submit the link in Google Classroom
+:::
+
+::: {.task-item}
+☐ **Submit the discussion** - respond to the Week 4 discussion prompt in Google Classroom
+:::
+
+:::
+
+---
+
+::: {.next-module}
+Up next → [Weeks 5–6: Final Project](project.qmd)
+:::

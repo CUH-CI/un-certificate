@@ -1,4 +1,185 @@
 ---
-title: "week2"
-editor: visual
+title: "Week 2 - Sustainability in the Pacific and CI Tools"
+toc: true
+toc-title: "On this page"
 ---
+
+## Sustainability in the Pacific {#sustainability-in-the-pacific}
+
+::: {.module-tag}
+Module 2A
+:::
+
+### 🪝 Hook
+
+Small Island Developing States make up less than 1% of global greenhouse gas emissions - yet they face some of the most severe consequences of climate change. Rising seas, intensifying storms, shrinking freshwater supplies, and collapsing fisheries aren't abstract future risks for Pacific communities. They are present-day realities.
+
+But Pacific island nations are not passive victims. They are active leaders in sustainability action - combining traditional ecological knowledge, community-based approaches, and scientific tools to adapt and respond. The question this module explores is: what does sustainability actually mean in this context, and how does data and cyberinfrastructure affect those efforts?
+
+::: {.resource-link}
+📖 **Recommended reading:** [Small Island Developing States — UN DESA](https://sdgs.un.org/topics/small-island-developing-states){target="_blank"} - read the overview section. Covers the UN definition of SIDS, the SAMOA Pathway, and the Antigua and Barbuda Agenda for SIDS (ABAS).
+:::
+
+---
+
+### 🎬 Lecture Video
+
+::: {.video-placeholder}
+**Sustainability in the Pacific - Lecture Video (~10 min)**
+
+*Your lecture video will go here. To embed a YouTube video, replace this block with:*
+
+```{{=html}}
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/YOUR-VIDEO-ID" 
+title="Sustainability in the Pacific" frameborder="0" allowfullscreen></iframe>
+```
+
+:::
+
+---
+
+### 🌏 Hands-On Use Case - UNDP SIDS Data Platform
+
+The **UNDP SIDS Data Platform** is a cyberinfrastructure tool built specifically for Small Island Developing States - aggregating over 4,000 country-level sustainability indicators, a GIS portal with geospatial datasets, and a Multidimensional Vulnerability Index across all SIDS regions including the Pacific.
+
+::: {.fieldtrip-box}
+**Your task this module:**
+
+Visit the [UNDP SIDS Data Platform](https://www.sparkblue.org/dashboard/small-island-developing-states){target="_blank"} and explore the data available for your chosen Pacific island country.
+
+**What to look for:**
+
+- Find your island country's profile - what sustainability indicators are tracked?
+- Look at the Multidimensional Vulnerability Index (MVI) - where does your island rank and why?
+- What data is missing or flagged as unavailable for your island?
+- How does this platform compare to the Pacific Data Hub you explored in Week 1?
+:::
+
+---
+
+### ✅ Tasks to Complete - Module 2A
+
+::: {.task-list}
+
+::: {.task-item}
+☐ **Watch the lecture video** - Sustainability in the Pacific (~10 min)
+:::
+
+::: {.task-item}
+☐ **Explore the UNDP SIDS Data Platform** - find your island country's profile and sustainability indicators
+:::
+
+::: {.task-item}
+☐ **Submit the discussion** - respond to the Week 2 discussion prompt in Google Classroom
+:::
+
+:::
+
+### 💬 Discussion Prompt
+
+**This week's discussion is in Google Classroom.**
+
+> *"Think about the island country you chose. What sustainability challenge concerns you most - and what data would a local decision-maker need to address it?"*
+
+Respond in 2–3 sentences.
+
+[→ Go to Week 2 Discussion in Google Classroom](https://classroom.google.com){.btn .btn-outline-primary target="_blank"}
+
+---
+
+## CI Tools {#tools}
+
+::: {.module-tag}
+Module 2B
+:::
+
+### 🪝 Hook
+
+Now that you have a sense of what sustainability looks like in the Pacific context, the next question is: what tools exist to support that work? This module surveys the cyberinfrastructure tool landscape - from data portals and science gateways to cloud platforms and real-time sensor networks. Some of these tools are already being used in the Pacific. A few are out of reach for most Pacific researchers - for now.
+
+---
+
+### 🎬 Lecture Video
+
+::: {.video-placeholder}
+**CI Tools — Lecture Video (~10 min)**
+
+*Your lecture video will go here. To embed a YouTube video, replace this block with:*
+
+```{{=html}}
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/YOUR-VIDEO-ID" 
+title="CI Tools" frameborder="0" allowfullscreen></iframe>
+```
+
+:::
+
+---
+
+### 🌊 Hands-On Use Case — PacIOOS
+
+**PacIOOS (Pacific Islands Ocean Observing System)** is a real-time ocean and coastal monitoring network - buoys, wave sensors, and tide gauges - operating across Hawaiʻi, Guam, and Pacific Islands. It's a working example of a CI tool stack in action: sensors collect data, transmit it via satellite, store it in the cloud, and visualize it in a live dashboard accessible from any browser.
+
+::: {.fieldtrip-box}
+**Your task this module:**
+
+Visit the [PacIOOS data viewer](https://www.pacioos.hawaii.edu){target="_blank"} and explore sensor data near your chosen island country.
+
+**What to look for:**
+
+- Find a sensor feed relevant to your island's sustainability challenge
+- What does the data show — what is being measured and how often?
+- Can you find any gaps in coverage near your island?
+- How does the data get from the sensor to your screen? Think about the CI stack concept from the lecture.
+:::
+
+::: {.resource-link}
+📖 **Explore further:** [SGCI Science Gateway Catalog](https://sciencegateways.org){target="_blank"} - browse to see the range of NSF-funded science gateways available across ecology, oceanography, climate, and public health. No account needed.
+:::
+
+---
+
+### 📋 Mini Assignment - CI Tool Stack
+
+::: {.assignment-box}
+**Week 2 Assignment - CI Tool Stack**
+
+Using what you explored in the PacIOOS hands-on use case and the lecture, design a simple CI tool stack for the sustainability challenge you identified in Week 1 for your chosen island country.
+
+**Complete the five-field template:**
+
+1. **Sustainability challenge:** What problem are you monitoring? (e.g. coastal erosion in Tuvalu)
+2. **What to measure:** Which variables matter? (e.g. wave height, sea surface temperature, rainfall)
+3. **Tool or sensor type:** What would collect or process this data? (e.g. coastal buoy, satellite imagery, open data portal)
+4. **Data transmission:** How does data get from the source to a usable format? (e.g. satellite uplink, cloud storage, open API)
+5. **Constraint or trade-off:** One real infrastructure barrier affecting your design (e.g. limited bandwidth, no reliable power grid, no institutional email for tool access)
+
+Add your responses to the **Week 2 section of your Pacific CI Portfolio** Google Doc. When you're done, submit your portfolio link in Google Classroom.
+
+[→ Submit Week 2 Assignment in Google Classroom](https://classroom.google.com){.btn .btn-primary target="_blank"}
+:::
+
+---
+
+### ✅ Tasks to Complete — Module 2B
+
+::: {.task-list}
+
+::: {.task-item}
+☐ **Watch the lecture video** - CI Tools (~10 min)
+:::
+
+::: {.task-item}
+☐ **Explore PacIOOS** - find a sensor feed near your island country
+:::
+
+::: {.task-item}
+☐ **Submit your mini assignment** - add the CI tool stack to your Pacific CI Portfolio and submit the link in Google Classroom
+:::
+
+:::
+
+---
+
+::: {.next-module}
+Up next → [Week 3: Accessing CI and How It Works](week3.qmd)
+:::

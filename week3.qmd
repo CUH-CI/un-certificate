@@ -1,4 +1,205 @@
 ---
-title: "week3"
-editor: visual
+title: "Week 3 - Accessing CI and How It Works"
+toc: true
+toc-title: "On this page"
 ---
+
+## Accessing CI / NSF {#accessing-ci-nsf}
+
+::: {.module-tag}
+Module 3A
+:::
+
+### 🪝 Hook
+
+NSF has invested millions of dollars in cyberinfrastructure that directly benefits the Pacific. A $4.5 million grant to the University of Hawaiʻi built the fiber optic research network connections linking Guam, American Samoa, Australia, New Zealand, and the US mainland. A more recent NSF award funds the Cyberinfrastructure Pacific Professionals (CI-PP) project - training and supporting researchers and students in advanced CI across Hawaiʻi, Guam, and US-Affiliated Pacific Islands.
+
+This infrastructure didn't build itself. It exists because researchers made the case, wrote the proposals, and connected Pacific institutions to the national CI ecosystem. This module introduces you to that ecosystem - what NSF funds, what's available, and how Pacific researchers have accessed it.
+
+::: {.resource-link}
+📖 **Read more:** [Cyberinfrastructure Pacific Professionals (CI-PP)](https://cipacific.org){target="_blank"} - learn more about NSF-funded CI work supporting researchers and students across Hawaiʻi, Guam, and US-Affiliated Pacific Islands.
+:::
+
+---
+
+### 🎬 Lecture Video
+
+::: {.video-placeholder}
+**Accessing CI / NSF — Lecture Video (~10 min)**
+
+*Your lecture video will go here. To embed a YouTube video, replace this block with:*
+
+```{{=html}}
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/YOUR-VIDEO-ID" 
+title="Accessing CI / NSF" frameborder="0" allowfullscreen></iframe>
+```
+
+:::
+
+---
+
+### 🖥️ Hands-On Use Case - What's Possible with ACCESS
+
+The best way to understand what NSF ACCESS makes possible is to see who's already using it. The **Current ACCESS Projects** page is a searchable database of active research projects using NSF computing resources right now - across every field of science and engineering.
+
+::: {.fieldtrip-box}
+**Your task this module:**
+
+Visit [ACCESS Current Projects](https://allocations.access-ci.org/current-projects){target="_blank"} and search for research relevant to your island country's sustainability challenge.
+
+Try search terms like:
+- `ocean` or `coral reef`
+- `climate` or `sea level`
+- `fisheries` or `Pacific`
+- `Hawaii` or `Chaminade`
+- Your specific sustainability topic
+
+**What to look for:**
+
+- What kinds of research are being done using ACCESS?
+- Find one project that connects to your island's sustainability challenge - what is it studying and what computing resources is it using?
+- Does seeing this change how you think about what's possible for Pacific sustainability research?
+
+No account needed — just explore and observe.
+:::
+
+::: {.resource-link}
+📖 **Want to learn more about how to apply?** [Getting started with ACCESS allocations](https://allocations.access-ci.org/get-your-first-project){target="_blank"} - an overview of the four allocation tiers and what each one requires.
+:::
+
+---
+
+### ✅ Tasks to Complete — Module 3A
+
+::: {.task-list}
+
+::: {.task-item}
+☐ **Watch the lecture video** - Accessing CI / NSF (~10 min)
+:::
+
+::: {.task-item}
+☐ **Explore NSF ACCESS**
+:::
+
+::: {.task-item}
+☐ **Submit the discussion** - respond to the Week 3 discussion prompt in Google Classroom
+:::
+
+:::
+
+### 💬 Discussion Prompt
+
+**This week's discussion is in Google Classroom.**
+
+> *"Looking at the NSF CI ecosystem - what surprised you most about what exists and what's available? Is there anything you found that could be directly useful for your island country's sustainability challenge?"*
+
+Respond in 2–3 sentences.
+
+[→ Go to Week 3 Discussion in Google Classroom](https://classroom.google.com){.btn .btn-outline-primary target="_blank"}
+
+---
+
+## How It Works {#how-it-works}
+
+::: {.module-tag}
+Module 3B
+:::
+
+### 🪝 Hook
+
+In 2016, Cyclone Winston hit Fiji with winds over 290 km/h - the most intense tropical cyclone ever recorded in the Southern Hemisphere. Forecasters had 24 hours of warning. That warning came from high-performance computing infrastructure running on servers thousands of miles away, processing atmospheric models too large for any local machine to handle.
+
+This module opens that black box. How does cloud computing work? What is HPC and when do you need it? And how is this infrastructure already being used - right now - to support Pacific sustainability research?
+
+---
+
+### 🎬 Lecture Video
+
+::: {.video-placeholder}
+**How It Works - Lecture Video (~10 min)**
+
+*Your lecture video will go here. To embed a YouTube video, replace this block with:*
+
+```{{=html}}
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/YOUR-VIDEO-ID" 
+title="How It Works" frameborder="0" allowfullscreen></iframe>
+```
+
+:::
+
+---
+
+### 🪸 Hands-On Use Case - Allen Coral Atlas
+
+The **Allen Coral Atlas** uses machine learning on cloud infrastructure to map coral reef health across the entire Pacific - a task that would be impossible to do manually at this scale. It's a powerful example of what cloud computing and ML make possible for Pacific sustainability research.
+
+::: {.fieldtrip-box}
+**Your task this module:**
+
+Visit the [Allen Coral Atlas](https://allencoralatlas.org){target="_blank"} and explore reef health for your chosen island country.
+
+**What to look for:**
+
+- Find your island - what does the reef health map show?
+- Find one reef area showing change or degradation
+- Click into the data - what satellite imagery and timeframes are available?
+- Think about the infrastructure behind it: what data fed this model, and what computing power runs it?
+:::
+
+::: {.resource-link}
+📖 **Read more:** [PACCSAP Climate Projections](https://www.pacificclimatechangescience.org){target="_blank"} - find your island country's climate profile and read the indicators and projections section.
+:::
+
+---
+
+### 📋 Mini Assignment - CI Stack Reflection
+
+::: {.assignment-box}
+**Week 3 Assignment - CI Stack Reflection**
+
+Using the Allen Coral Atlas and your island's PACCSAP climate profile, answer the following:
+
+**Part A - Allen Coral Atlas:**
+
+1. Find one reef area showing change for your island. What does the change look like?
+2. What data fed this model? (satellite imagery, reference datasets)
+3. What infrastructure runs it? (cloud, ML pipeline - describe in plain language)
+4. What decision could a marine manager or government official make using this?
+5. What would it take to run this analysis locally in your chosen island nation?
+
+**Part B - PACCSAP climate profile:**
+
+Identify **two model-derived climate indicators** a local planner or decision-maker could act on for your island. For each indicator note:
+- One **strength** of the data or model behind it
+- One **limitation**
+
+Add your responses to the **Week 3 section of your Pacific CI Portfolio** Google Doc and submit the link in Google Classroom.
+
+[→ Submit Week 3 Assignment in Google Classroom](https://classroom.google.com){.btn .btn-primary target="_blank"}
+:::
+
+---
+
+### ✅ Tasks to Complete — Module 3B
+
+::: {.task-list}
+
+::: {.task-item}
+☐ **Watch the lecture video** - How It Works (~10 min)
+:::
+
+::: {.task-item}
+☐ **Explore the Allen Coral Atlas** - find your island country and identify reef change
+:::
+
+::: {.task-item}
+☐ **Submit your mini assignment** - add the CI stack reflection to your Pacific CI Portfolio and submit the link in Google Classroom
+:::
+
+:::
+
+---
+
+::: {.next-module}
+Up next → [Week 4: From Data to Decisions](week4.qmd)
+:::

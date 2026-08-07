@@ -245,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="join-google-classroom" class="level3 setup-card">
 <h3 class="anchored" data-anchor-id="join-google-classroom">1. Join Google Classroom</h3>
 <p>Click the link below to join the course Google Classroom. This is where you’ll submit assignments, participate in discussions, and receive feedback.</p>
-<p><a href="https://classroom.google.com" class="btn btn-primary" target="_blank">→ Join Google Classroom</a></p>
+<p><a href="https://classroom.google.com/c/ODU1NDg5NzA2Njkz?cjc=osrdg243" class="btn btn-primary" target="_blank">→ Join Google Classroom</a></p>
 </section>
 <section id="bookmark-this-site" class="level3 setup-card">
 <h3 class="anchored" data-anchor-id="bookmark-this-site">2. Bookmark this site</h3>
@@ -287,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
 <p>1</p>
 </div>
 <div class="flow-step-content">
-<p><strong>Watch the lecture video</strong> Each module has a short (~10 min) lecture video embedded on the week’s page. Watch it first before moving on.</p>
+<p><strong>Watch the lecture video</strong> Each module has a short lecture video embedded on the week’s page. Watch it first before moving on.</p>
 </div>
 </div>
 <div class="flow-step">
@@ -361,7 +361,7 @@ ul.task-list li input[type="checkbox"] {
 <p><em>“Pacific Islanders are leading climate action and combining their own systems of knowledge with western science to implement locally relevant climate solutions.”</em> — Frontiers in Marine Science, 2019</p>
 </blockquote>
 <div class="resource-link">
-<p>📖 <strong>Recommended reading:</strong> <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00289/full" target="_blank">Lessons From the Pacific Islands – Adapting to Climate Change by Supporting Social and Ecological Resilience</a> — read the introduction (~2 pages). Open access.</p>
+<p>📖 <strong>Recommended reading:</strong> <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00289/full" target="_blank">Lessons From the Pacific Islands – Adapting to Climate Change by Supporting Social and Ecological Resilience</a> - read the introduction (~2 pages).</p>
 </div>
 <hr>
 </section>
@@ -398,7 +398,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>For each dataset, answer these four prompts:</strong></p>
 <ol type="1">
 <li><strong>Decision value:</strong> What specific question could a local planner, official, or community leader answer using this data?</li>
-<li><strong>Who decides:</strong> Name one real role who would use this — e.g.&nbsp;fisheries officer, disaster risk manager, mayor.</li>
+<li><strong>Who decides:</strong> Name one real role who would use this - e.g.&nbsp;fisheries officer, disaster risk manager, mayor.</li>
 <li><strong>Data gap:</strong> What is missing, outdated, or too coarse to make that decision confidently?</li>
 <li><strong>Infrastructure gap:</strong> Is the gap a data problem, a connectivity problem, a capacity problem - or all three?</li>
 </ol>
@@ -523,7 +523,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/CUH-CI\.github\.io\/un-certificate\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

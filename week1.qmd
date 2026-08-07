@@ -29,7 +29,7 @@ Before diving into the content, complete these three steps to get your course en
 ### 1. Join Google Classroom
 Click the link below to join the course Google Classroom. This is where you'll submit assignments, participate in discussions, and receive feedback.
 
-[→ Join Google Classroom](https://classroom.google.com){.btn .btn-primary target="_blank"}
+[→ Join Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz?cjc=osrdg243){.btn .btn-primary target="_blank"}
 :::
 
 ::: {.setup-card}
@@ -92,7 +92,7 @@ Each week follows the same rhythm - so once you know the pattern, you always kno
 :::
 ::: {.flow-step-content}
 **Watch the lecture video**
-Each module has a short (~10 min) lecture video embedded on the week's page. Watch it first before moving on.
+Each module has a short lecture video embedded on the week's page. Watch it first before moving on.
 :::
 :::
 
@@ -188,7 +188,7 @@ This module introduces **cyberinfrastructure** - a powerful set of tools that ca
 > — Frontiers in Marine Science, 2019
 
 ::: {.resource-link}
-📖 **Recommended reading:** [Lessons From the Pacific Islands – Adapting to Climate Change by Supporting Social and Ecological Resilience](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00289/full){target="_blank"} — read the introduction (~2 pages). Open access.
+📖 **Recommended reading:** [Lessons From the Pacific Islands – Adapting to Climate Change by Supporting Social and Ecological Resilience](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00289/full){target="_blank"} - read the introduction (~2 pages).
 :::
 
 ---
@@ -238,7 +238,7 @@ Using the Pacific Data Hub, choose **one Pacific island country** - this will be
 **For each dataset, answer these four prompts:**
 
 1. **Decision value:** What specific question could a local planner, official, or community leader answer using this data?
-2. **Who decides:** Name one real role who would use this — e.g. fisheries officer, disaster risk manager, mayor.
+2. **Who decides:** Name one real role who would use this - e.g. fisheries officer, disaster risk manager, mayor.
 3. **Data gap:** What is missing, outdated, or too coarse to make that decision confidently?
 4. **Infrastructure gap:** Is the gap a data problem, a connectivity problem, a capacity problem - or all three?
 

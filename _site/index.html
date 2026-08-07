@@ -193,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="a-short-course-on-cyberinfrastructure-and-its-role-in-addressing-sustainability-challenges-in-the-pacific-region" class="level3">
 <h3 class="anchored" data-anchor-id="a-short-course-on-cyberinfrastructure-and-its-role-in-addressing-sustainability-challenges-in-the-pacific-region">A short course on cyberinfrastructure and its role in addressing sustainability challenges in the Pacific region</h3>
 <div class="hero-buttons">
-<p><a href="./week1.html" class="btn btn-primary btn-lg">Get Started → Week 1</a></p>
+<p><a href="https://webforms.chaminade.edu/dataskills_short_courses/" class="btn btn-primary btn-lg">Get Started → Sign Up Today</a></p>
 </div>
 </section>
 </section>
@@ -378,7 +378,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/CUH-CI\.github\.io\/un-certificate\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

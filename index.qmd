@@ -10,7 +10,7 @@ toc: false
 ### A short course on cyberinfrastructure and its role in addressing sustainability challenges in the Pacific region
 
 ::: {.hero-buttons}
-[Get Started → Week 1](week1.qmd){.btn .btn-primary .btn-lg}
+[Get Started → Sign Up Today](https://webforms.chaminade.edu/dataskills_short_courses/){.btn .btn-primary .btn-lg}
 :::
 
 :::

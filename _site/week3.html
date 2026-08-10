@@ -191,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#hook" id="toc-hook" class="nav-link" data-scroll-target="#hook">🪝 Hook</a></li>
   <li><a href="#lecture-video" id="toc-lecture-video" class="nav-link" data-scroll-target="#lecture-video">🎬 Lecture Video</a></li>
   <li><a href="#hands-on-use-case---whats-possible-with-access" id="toc-hands-on-use-case---whats-possible-with-access" class="nav-link" data-scroll-target="#hands-on-use-case---whats-possible-with-access">🖥️ Hands-On Use Case - What’s Possible with ACCESS</a></li>
-  <li><a href="#tasks-to-complete-module-3a" id="toc-tasks-to-complete-module-3a" class="nav-link" data-scroll-target="#tasks-to-complete-module-3a">✅ Tasks to Complete — Module 3A</a></li>
+  <li><a href="#tasks-to-complete---module-3a" id="toc-tasks-to-complete---module-3a" class="nav-link" data-scroll-target="#tasks-to-complete---module-3a">✅ Tasks to Complete - Module 3A</a></li>
   <li><a href="#discussion-prompt" id="toc-discussion-prompt" class="nav-link" data-scroll-target="#discussion-prompt">💬 Discussion Prompt</a></li>
   </ul></li>
   <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How It Works</a>
@@ -234,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="hook" class="level3">
 <h3 class="anchored" data-anchor-id="hook">🪝 Hook</h3>
-<p>NSF has invested millions of dollars in cyberinfrastructure that directly benefits the Pacific. A $4.5 million grant to the University of Hawaiʻi built the fiber optic research network connections linking Guam, American Samoa, Australia, New Zealand, and the US mainland. A more recent NSF award funds the Cyberinfrastructure Pacific Professionals (CI-PP) project - training and supporting researchers and students in advanced CI across Hawaiʻi, Guam, and US-Affiliated Pacific Islands.</p>
+<p>The National Science Foundation (NSF) has invested millions of dollars in cyberinfrastructure that directly benefits the Pacific. A $4.5 million grant to the University of Hawaiʻi built the fiber optic research network connections linking Guam, American Samoa, Australia, New Zealand, and the US mainland. A more recent NSF award funds the Cyberinfrastructure Pacific Professionals (CI-PP) project - training and supporting researchers and students in advanced CI across Hawaiʻi, Guam, and US-Affiliated Pacific Islands.</p>
 <p>This infrastructure didn’t build itself. It exists because researchers made the case, wrote the proposals, and connected Pacific institutions to the national CI ecosystem. This module introduces you to that ecosystem - what NSF funds, what’s available, and how Pacific researchers have accessed it.</p>
 <div class="resource-link">
 <p>📖 <strong>Read more:</strong> <a href="https://cipacific.org" target="_blank">Cyberinfrastructure Pacific Professionals (CI-PP)</a> - learn more about NSF-funded CI work supporting researchers and students across Hawaiʻi, Guam, and US-Affiliated Pacific Islands.</p>
@@ -263,15 +263,15 @@ ul.task-list li input[type="checkbox"] {
 <li>Find one project that connects to your island’s sustainability challenge - what is it studying and what computing resources is it using?</li>
 <li>Does seeing this change how you think about what’s possible for Pacific sustainability research?</li>
 </ul>
-<p>No account needed — just explore and observe.</p>
+<p>No account needed - just explore and observe.</p>
 </div>
 <div class="resource-link">
 <p>📖 <strong>Want to learn more about how to apply?</strong> <a href="https://allocations.access-ci.org/get-your-first-project" target="_blank">Getting started with ACCESS allocations</a> - an overview of the four allocation tiers and what each one requires.</p>
 </div>
 <hr>
 </section>
-<section id="tasks-to-complete-module-3a" class="level3">
-<h3 class="anchored" data-anchor-id="tasks-to-complete-module-3a">✅ Tasks to Complete — Module 3A</h3>
+<section id="tasks-to-complete---module-3a" class="level3">
+<h3 class="anchored" data-anchor-id="tasks-to-complete---module-3a">✅ Tasks to Complete - Module 3A</h3>
 <div class="task-list">
 <div class="task-item">
 <p>☐ <strong>Watch the lecture video</strong> - Accessing CI / NSF (~10 min)</p>
@@ -290,7 +290,7 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p><em>“Looking at the NSF CI ecosystem - what surprised you most about what exists and what’s available? Is there anything you found that could be directly useful for your island country’s sustainability challenge?”</em></p>
 </blockquote>
-<p>Respond in 2–3 sentences.</p>
+<p>Respond in 2-3 sentences.</p>
 <p><a href="https://classroom.google.com" class="btn btn-outline-primary" target="_blank">→ Go to Week 3 Discussion in Google Classroom</a></p>
 <hr>
 </section>
@@ -450,7 +450,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/CUH-CI\.github\.io\/un-certificate\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

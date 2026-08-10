@@ -12,7 +12,7 @@ Final Project
 
 Over the four instructional weeks you built a **Pacific CI Portfolio** - a living document capturing your work week by week. Now it's time to assemble that portfolio into your final deliverable: a **policy brief** proposing how cyberinfrastructure could improve sustainability decision-making for your chosen Pacific island nation.
 
-This project is designed to be accessible to students of all technical backgrounds. Clear thinking, honest analysis, and understanding the specific use of real CI tools and datasets are the objectives of this course.
+This project is designed to be completed by students of all technical backgrounds. Clear thinking, honest analysis, and understanding the specific use of real CI tools and datasets are the objectives of this course.
 
 ---
 
@@ -36,7 +36,7 @@ How could improved or better-used cyberinfrastructure improve decision-making fo
 What could go wrong? What access, sovereignty, or capacity barriers apply? Who might be excluded from the solution you're proposing?
 
 5. **Call to action**
-One sentence: what should a specific, named decision-maker do - and by when?
+What should a specific, named decision-maker do - and by when?
 :::
 
 ---
@@ -83,10 +83,10 @@ Draws visibly from your Pacific CI Portfolio - the brief should feel earned, not
 
 | Portfolio section | Feeds into brief as... |
 |---|---|
-| Week 1 — Data audit | Section 1: The sustainability problem |
-| Week 2 — CI tool stack | Section 2: CI landscape (collection layer) |
-| Week 3 — CI stack reflection | Section 2 + 3: CI landscape (compute layer) + evidence for recommendation |
-| Week 4 — Stakeholder + CI pipeline map | Section 2 + 4: CI landscape (decision layer) + limitations |
+| Week 1 - Data audit | Section 1: The sustainability problem |
+| Week 2 - CI tool stack | Section 2: CI landscape (collection layer) |
+| Week 3 - CI stack reflection | Section 2 + 3: CI landscape (compute layer) + evidence for recommendation |
+| Week 4 - Stakeholder + CI pipeline map | Section 2 + 4: CI landscape (decision layer) + limitations |
 
 ---
 
@@ -99,9 +99,9 @@ Along with your policy brief, you will record a **5-minute video presentation** 
 
 1. Self-introduction (name, background, etc.)
 2. Your island country and sustainability challenge - why you chose it
-3. The CI landscape — what exists and what's missing
-4. Your recommendation — what CI could improve decision-making and how
-5. Your call to action — who should do what, and by when
+3. The CI landscape - what exists and what's missing
+4. Your recommendation - what CI could improve decision-making and how
+5. Your call to action - who should do what, and by when
 
 **Recording tips:**
 - Use Zoom, Loom, or any screen recording tool you're comfortable with

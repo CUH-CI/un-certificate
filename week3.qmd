@@ -12,7 +12,7 @@ Module 3A
 
 ### 🪝 Hook
 
-NSF has invested millions of dollars in cyberinfrastructure that directly benefits the Pacific. A $4.5 million grant to the University of Hawaiʻi built the fiber optic research network connections linking Guam, American Samoa, Australia, New Zealand, and the US mainland. A more recent NSF award funds the Cyberinfrastructure Pacific Professionals (CI-PP) project - training and supporting researchers and students in advanced CI across Hawaiʻi, Guam, and US-Affiliated Pacific Islands.
+The National Science Foundation (NSF) has invested millions of dollars in cyberinfrastructure that directly benefits the Pacific. A $4.5 million grant to the University of Hawaiʻi built the fiber optic research network connections linking Guam, American Samoa, Australia, New Zealand, and the US mainland. A more recent NSF award funds the Cyberinfrastructure Pacific Professionals (CI-PP) project - training and supporting researchers and students in advanced CI across Hawaiʻi, Guam, and US-Affiliated Pacific Islands.
 
 This infrastructure didn't build itself. It exists because researchers made the case, wrote the proposals, and connected Pacific institutions to the national CI ecosystem. This module introduces you to that ecosystem - what NSF funds, what's available, and how Pacific researchers have accessed it.
 
@@ -60,7 +60,7 @@ Try search terms like:
 - Find one project that connects to your island's sustainability challenge - what is it studying and what computing resources is it using?
 - Does seeing this change how you think about what's possible for Pacific sustainability research?
 
-No account needed — just explore and observe.
+No account needed - just explore and observe.
 :::
 
 ::: {.resource-link}
@@ -69,7 +69,7 @@ No account needed — just explore and observe.
 
 ---
 
-### ✅ Tasks to Complete — Module 3A
+### ✅ Tasks to Complete - Module 3A
 
 ::: {.task-list}
 
@@ -93,7 +93,7 @@ No account needed — just explore and observe.
 
 > *"Looking at the NSF CI ecosystem - what surprised you most about what exists and what's available? Is there anything you found that could be directly useful for your island country's sustainability challenge?"*
 
-Respond in 2–3 sentences.
+Respond in 2-3 sentences.
 
 [→ Go to Week 3 Discussion in Google Classroom](https://classroom.google.com){.btn .btn-outline-primary target="_blank"}
 

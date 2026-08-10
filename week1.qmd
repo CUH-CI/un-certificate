@@ -6,6 +6,10 @@ toc-title: "On this page"
 
 ## Course Introduction {#course-introduction}
 
+::: {.module-tag}
+Module 1A
+:::
+
 ::: {.video-placeholder}
 🎬 **Welcome Video**
 
@@ -147,19 +151,19 @@ Complete these before moving on to Module 1B.
 ::: {.task-list}
 
 ::: {.task-item}
-☐ **Join Google Classroom** - use the link in the Getting Set Up section above
+**Join Google Classroom** - use the link in the Getting Set Up section above
 :::
 
 ::: {.task-item}
-☐ **Make a copy of the Portfolio Template** - keep the link somewhere important
+**Make a copy of the Portfolio Template** - keep the link somewhere important
 :::
 
 ::: {.task-item}
-☐ **Share your portfolio link** - submit it in the Week 1 Google Classroom assignment (make sure you set the correct sharing permissions so I can see it!)
+**Share your portfolio link** - submit it in the Week 1 Google Classroom assignment (make sure you set the correct sharing permissions so I can see it!)
 :::
 
 ::: {.task-item}
-☐ **Introduce yourself** - post a short intro in the Week 1 discussion thread in Google Classroom (name, where you're from, why you joined the course, etc.)
+**Introduce yourself** - post a short intro in the Week 1 discussion thread in Google Classroom (name, where you're from, why you joined the course, etc.)
 :::
 
 :::
@@ -185,10 +189,10 @@ Pacific island communities are already leading in sustainability and climate act
 This module introduces **cyberinfrastructure** - a powerful set of tools that can help bridge the gap between the data that exists and the decisions that need to be made.
 
 > *"Pacific Islanders are leading climate action and combining their own systems of knowledge with western science to implement locally relevant climate solutions."*
-> — Frontiers in Marine Science, 2019
+> - [Frontiers in Marine Science, 2019](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00289/full)
 
 ::: {.resource-link}
-📖 **Recommended reading:** [Lessons From the Pacific Islands – Adapting to Climate Change by Supporting Social and Ecological Resilience](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00289/full){target="_blank"} - read the introduction (~2 pages).
+📖 **Recommended reading:** [Lessons From the Pacific Islands - Adapting to Climate Change by Supporting Social and Ecological Resilience](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00289/full){target="_blank"} - read the introduction (~2 pages).
 :::
 
 ---
@@ -263,7 +267,7 @@ Respond in 2–3 sentences minimum.
 
 ### Closing Thoughts
 
-> *"The Pacific Data Hub now gives a fisheries officer in Nauru access to regional ocean data that would have taken weeks to gather a decade ago. That's what shared cyberinfrastructure makes possible - and you're just getting started."*
+> *The Pacific Data Hub now gives a fisheries officer in Nauru access to regional ocean data that would have taken weeks to gather a decade ago. That's what shared cyberinfrastructure makes possible - and you're just getting started.*
 
 ---
 

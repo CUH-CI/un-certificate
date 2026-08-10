@@ -23,7 +23,7 @@ This is the last-mile problem - the gap between what cyberinfrastructure produce
 ### 🎬 Lecture Video
 
 ::: {.video-placeholder}
-**Data to Decisions — Lecture Video (~10 min)**
+**Data to Decisions - Lecture Video (~10 min)**
 
 *Your lecture video will go here. To embed a YouTube video, replace this block with:*
 
@@ -45,7 +45,7 @@ National Adaptation Plans (NAPs) are real government documents that show how CI-
 
 Find and read the evidence and data section of a Pacific National Adaptation Plan. You can use Vanuatu's NAP or find one for your chosen island country.
 
-- NAPs are available via [UNFCCC NAP Central](https://napcentral.org){target="_blank"} - search for your island country or browse the Pacific region
+- NAPs are available via [UNFCCC NAP Central](https://napcentral.org/submitted-NAPs){target="_blank"} - search for your island country or browse the Pacific region
 - Read the evidence and data section (~5–10 pages)
 
 **What to look for:**
@@ -57,7 +57,7 @@ Find and read the evidence and data section of a Pacific National Adaptation Pla
 :::
 
 ::: {.resource-link}
-📖 **Read more:** [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care){target="_blank"} — approximately 4 pages. Consider how each principle applies to Pacific data governance contexts.
+📖 **Read more:** [CARE Principles for Indigenous Data Governance](https://static1.squarespace.com/static/5d3799de845604000199cd24/t/6397b363b502ff481fce6baf/1670886246948/CARE%2BPrinciples_One%2BPagers%2BFINAL_Oct_17_2019.pdf){target="_blank"} — approximately 5 pages. Consider how each principle applies to Pacific data governance contexts.
 :::
 
 ---
@@ -70,10 +70,10 @@ Find and read the evidence and data section of a Pacific National Adaptation Pla
 For your chosen island country and sustainability challenge, produce a structured map covering the following five areas. This map becomes the evidence section of your policy brief in Weeks 5 and 6 - so be as specific and honest as you can. Identifying gaps is just as valuable as identifying what exists.
 
 1. **The sustainability problem:** One clear sentence describing the challenge and who is affected.
-2. **Key decision-makers:** Who are the 2–3 people or institutions that make decisions about this challenge? (e.g. Ministry of Environment, village council, regional fisheries body)
-3. **CI that currently exists:** What data, platforms, or models are already available for this challenge? Reference tools or datasets you've encountered in Weeks 1–3.
-4. **What is missing:** What CI gap most limits good decision-making here? Be specific — not just "more data" but what kind, held by whom, used by whom.
-5. **Who is excluded:** Who is affected by this challenge but left out of the data collection or the decision-making process?
+2. **Key decision-makers:** Who are the 2-3 people or institutions that make decisions about this challenge? (e.g. Ministry of Environment, village council, regional fisheries body)
+3. **CI that currently exists:** What data, platforms, or models are already available for this challenge? Reference tools or datasets you've encountered in Weeks 1-3. Research and look for more CI tools that exist online. 
+4. **What is missing:** What CI gap most limits good decision-making here? Be specific - not just "more data" but what kind, held by whom, used by whom.
+5. **Who is excluded:** Who is affected by this sustainability challenge but left out of the data collection or the decision-making process?
 
 Add your responses to the **Week 4 section of your Pacific CI Portfolio** Google Doc and submit the link in Google Classroom.
 
@@ -86,7 +86,7 @@ Add your responses to the **Week 4 section of your Pacific CI Portfolio** Google
 
 **This week's discussion is in Google Classroom.**
 
-> *"You mapped who is excluded from the data or the decision. Was that more or less than you expected - and what does it tell you about where cyberinfrastructure needs to go next in the Pacific?"*
+> *"For the assignment, you mapped who is excluded from the data or the decision. Did this surpise you - and what does it tell you about where cyberinfrastructure needs to go next in the Pacific?"*
 
 Respond in 2–3 sentences.
 
@@ -94,9 +94,9 @@ Respond in 2–3 sentences.
 
 ---
 
-### ✨ Inspire
+### Closing Thoughts
 
-> *"The gap between data and decisions is where cyberinfrastructure meets policy - and where you can make the most difference. Your policy brief starts now. You already have everything you need."*
+> *The gap between data and decisions is where cyberinfrastructure meets policy - and where you can make the most difference. Your policy brief starts now. You already have everything you need.*
 
 ---
 

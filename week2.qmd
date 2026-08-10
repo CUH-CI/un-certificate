@@ -1,5 +1,5 @@
 ---
-title: "Week 2 - Sustainability in the Pacific and CI Tools"
+title: "Week 2 - The Pacific and CI Tools"
 toc: true
 toc-title: "On this page"
 ---
@@ -17,7 +17,7 @@ Small Island Developing States make up less than 1% of global greenhouse gas emi
 But Pacific island nations are not passive victims. They are active leaders in sustainability action - combining traditional ecological knowledge, community-based approaches, and scientific tools to adapt and respond. The question this module explores is: what does sustainability actually mean in this context, and how does data and cyberinfrastructure affect those efforts?
 
 ::: {.resource-link}
-📖 **Recommended reading:** [Small Island Developing States — UN DESA](https://sdgs.un.org/topics/small-island-developing-states){target="_blank"} - read the overview section. Covers the UN definition of SIDS, the SAMOA Pathway, and the Antigua and Barbuda Agenda for SIDS (ABAS).
+📖 **Recommended reading:** [Small Island Developing States - UN DESA](https://sdgs.un.org/topics/small-island-developing-states){target="_blank"} - read the description section. Covers the UN definition of SIDS, the SAMOA Pathway, and the Antigua and Barbuda Agenda for SIDS (ABAS).
 :::
 
 ---
@@ -45,7 +45,7 @@ The **UNDP SIDS Data Platform** is a cyberinfrastructure tool built specifically
 ::: {.fieldtrip-box}
 **Your task this module:**
 
-Visit the [UNDP SIDS Data Platform](https://www.sparkblue.org/dashboard/small-island-developing-states){target="_blank"} and explore the data available for your chosen Pacific island country.
+Visit the [UNDP SIDS Data Platform](https://sids.data.undp.org/){target="_blank"} and explore the data available for your chosen Pacific island country.
 
 **What to look for:**
 
@@ -95,7 +95,7 @@ Module 2B
 
 ### 🪝 Hook
 
-Now that you have a sense of what sustainability looks like in the Pacific context, the next question is: what tools exist to support that work? This module surveys the cyberinfrastructure tool landscape - from data portals and science gateways to cloud platforms and real-time sensor networks. Some of these tools are already being used in the Pacific. A few are out of reach for most Pacific researchers - for now.
+Now that you have a sense of what sustainability looks like in the Pacific context, the next question is: what tools exist to support that work? This module surveys the cyberinfrastructure tool landscape - from data portals and science gateways to cloud platforms and real-time sensor networks. Some of these tools are already being used in the Pacific.
 
 ---
 
@@ -117,7 +117,7 @@ title="CI Tools" frameborder="0" allowfullscreen></iframe>
 
 ### 🌊 Hands-On Use Case — PacIOOS
 
-**PacIOOS (Pacific Islands Ocean Observing System)** is a real-time ocean and coastal monitoring network - buoys, wave sensors, and tide gauges - operating across Hawaiʻi, Guam, and Pacific Islands. It's a working example of a CI tool stack in action: sensors collect data, transmit it via satellite, store it in the cloud, and visualize it in a live dashboard accessible from any browser.
+**PacIOOS (Pacific Islands Ocean Observing System)** is a real-time ocean and coastal monitoring network - buoys, wave sensors, and tide gauges - operating across Hawaiʻi and the Pacific Islands. It's a working example of a CI tool stack in action: sensors collect data, transmit it via satellite, store it in the cloud, and visualize it in a live dashboard accessible from any browser.
 
 ::: {.fieldtrip-box}
 **Your task this module:**
@@ -126,8 +126,8 @@ Visit the [PacIOOS data viewer](https://www.pacioos.hawaii.edu){target="_blank"}
 
 **What to look for:**
 
-- Find a sensor feed relevant to your island's sustainability challenge
-- What does the data show — what is being measured and how often?
+- Find a sensor feed relevant to a sustainability challenge your island faces (may not include data for your specific island, but beneficial to explore what's out there!)
+- What does the data show - what is being measured and how often?
 - Can you find any gaps in coverage near your island?
 - How does the data get from the sensor to your screen? Think about the CI stack concept from the lecture.
 :::

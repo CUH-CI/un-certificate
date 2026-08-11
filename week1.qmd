@@ -192,7 +192,7 @@ This module introduces **cyberinfrastructure** - a powerful set of tools that ca
 > - [Frontiers in Marine Science, 2019](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00289/full)
 
 ::: {.resource-link}
-📖 **Recommended reading:** [Lessons From the Pacific Islands - Adapting to Climate Change by Supporting Social and Ecological Resilience](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00289/full){target="_blank"} - read the introduction (~2 pages).
+📖 **Recommended video:** [Definition of Cyberinfrastructure](https://www.youtube.com/watch?v=R25Pa5uSoEg){target="_blank"} - Watch this video for a brief overview of what cyberinfrastructure is. 
 :::
 
 ---
@@ -215,7 +215,7 @@ title="CI Foundations" frameborder="0" allowfullscreen></iframe>
 
 ### Hands-On Use Case - Pacific Data Hub
 
-The **Pacific Data Hub** is a regional cyberinfrastructure platform aggregating climate, fisheries, ocean, and demographic data from 25 Pacific nations. This is cyberinfrastructure in action - a shared regional platform that gives researchers and decision-makers across the Pacific access to data they couldn't build or maintain independently.
+The **Pacific Data Hub** is a regional cyberinfrastructure platform aggregating climate, fisheries, ocean, and demographic data from 20+ Pacific nations. This is cyberinfrastructure in action - a shared regional platform that gives researchers and decision-makers across the Pacific access to data they couldn't build or maintain independently.
 
 ::: {.fieldtrip-box}
 **Your task this week:**
@@ -224,7 +224,7 @@ Visit [pacificdata.org](https://pacificdata.org){target="_blank"} and spend 10-2
 
 **What to look for:**
 
-- What kinds of data are available for your chosen island?
+- What kinds of data are available for the different islands?
 - Who collected it and when was it last updated?
 - What sustainability challenges does it connect to?
 - What feels missing?
@@ -257,7 +257,7 @@ Add your responses to the **Week 1 section of your Pacific CI Portfolio** Google
 
 **This week's discussion in Google Classroom.**
 
-> *"Before we dive in - what do you think of when you hear the word 'cyberinfrastructure'? No wrong answers. Just your honest first impression."*
+> *Before we dive in - what do you think of when you hear the word 'cyberinfrastructure'? No wrong answers. Just your honest first impression.*
 
 Respond in 2–3 sentences minimum.
 
@@ -276,19 +276,19 @@ Respond in 2–3 sentences minimum.
 ::: {.task-list}
 
 ::: {.task-item}
-☐ **Watch the lecture video** - CI Foundations (~10 min)
+**Watch the lecture video** - CI Foundations (~10 min)
 :::
 
 ::: {.task-item}
-☐ **Go through the hands-on use case** - explore the Pacific Data Hub at pacificdata.org
+**Go through the hands-on use case** - explore the Pacific Data Hub at pacificdata.org - there is nothing to submit for use-cases
 :::
 
 ::: {.task-item}
-☐ **Submit your mini assignment** - add the data audit to your Pacific CI Portfolio and submit the link in Google Classroom
+**Submit your mini assignment** - add the data audit to your Pacific CI Portfolio and submit the link in Google Classroom
 :::
 
 ::: {.task-item}
-☐ **Submit the discussion** - respond to the Week 1 discussion prompt in Google Classroom
+**Submit the discussion** - respond to the Week 1 discussion prompt in Google Classroom
 :::
 
 :::

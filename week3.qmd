@@ -12,7 +12,7 @@ Module 3A
 
 ### 🪝 Hook
 
-The National Science Foundation (NSF) has invested millions of dollars in cyberinfrastructure that directly benefits the Pacific. A $4.5 million grant to the University of Hawaiʻi built the fiber optic research network connections linking Guam, American Samoa, Australia, New Zealand, and the US mainland. A more recent NSF award funds the Cyberinfrastructure Pacific Professionals (CI-PP) project - training and supporting researchers and students in advanced CI across Hawaiʻi, Guam, and US-Affiliated Pacific Islands.
+The National Science Foundation (NSF) has invested millions of dollars in cyberinfrastructure that benefits the Pacific. A [$4.5 million grant to the University of Hawaiʻi](https://www.hawaii.edu/news/2020/08/18/nsf-pacific-cyberinfrastructure-grant/) built the fiber optic research network connections linking Guam, American Samoa, Australia, New Zealand, and the US mainland. A more recent NSF award funds the Cyberinfrastructure Pacific Professionals (CI-PP) project - training and supporting researchers and students in advanced CI across Hawaiʻi, Guam, and US-Affiliated Pacific Islands.
 
 This infrastructure didn't build itself. It exists because researchers made the case, wrote the proposals, and connected Pacific institutions to the national CI ecosystem. This module introduces you to that ecosystem - what NSF funds, what's available, and how Pacific researchers have accessed it.
 
@@ -47,12 +47,13 @@ The best way to understand what NSF ACCESS makes possible is to see who's alread
 
 Visit [ACCESS Current Projects](https://allocations.access-ci.org/current-projects){target="_blank"} and search for research relevant to your island country's sustainability challenge.
 
-Try search terms like:
-- `ocean` or `coral reef`
-- `climate` or `sea level`
-- `fisheries` or `Pacific`
-- `Hawaii` or `Chaminade`
-- Your specific sustainability topic
+Use the *Field of Science* filter to browse projects relevant to your island's sustainability challenge. Try fields like:
+
+- Oceanograyphy and Ocean Sciences
+- Agriculture, Forestry, and Fisheries
+- Environmental Biology
+- Economics and Business
+- Your specific field of interest
 
 **What to look for:**
 
@@ -74,15 +75,15 @@ No account needed - just explore and observe.
 ::: {.task-list}
 
 ::: {.task-item}
-☐ **Watch the lecture video** - Accessing CI / NSF (~10 min)
+**Watch the lecture video** - Accessing CI / NSF (~10 min)
 :::
 
 ::: {.task-item}
-☐ **Explore NSF ACCESS**
+**Explore NSF ACCESS**
 :::
 
 ::: {.task-item}
-☐ **Submit the discussion** - respond to the Week 3 discussion prompt in Google Classroom
+**Submit the discussion** - respond to the Week 3 discussion prompt in Google Classroom
 :::
 
 :::
@@ -91,7 +92,7 @@ No account needed - just explore and observe.
 
 **This week's discussion is in Google Classroom.**
 
-> *"Looking at the NSF CI ecosystem - what surprised you most about what exists and what's available? Is there anything you found that could be directly useful for your island country's sustainability challenge?"*
+> *Looking at the NSF CI ecosystem - what surprised you most about what exists and what's available? Is there anything you found that could be directly useful for your island country's sustainability challenge?*
 
 Respond in 2-3 sentences.
 
@@ -107,16 +108,18 @@ Module 3B
 
 ### 🪝 Hook
 
-In 2016, Cyclone Winston hit Fiji with winds over 290 km/h - the most intense tropical cyclone ever recorded in the Southern Hemisphere. Forecasters had 24 hours of warning. That warning came from high-performance computing infrastructure running on servers thousands of miles away, processing atmospheric models too large for any local machine to handle.
+In April 2026, Super Typhoon Sinlaku formed in the western Pacific and rapidly grew to a Category 5, 185-mph storm. It first hit Chuuk in the Federated States of Micronesia, then struck Saipan and Tinian in the Commonwealth of the Northern Mariana Islands. The storm flipped cars, toppled utility poles, and ripped away tin roofs - leaving much of Saipan without power. 
 
-This module opens that black box. How does cloud computing work? What is HPC and when do you need it? And how is this infrastructure already being used - right now - to support Pacific sustainability research?
+The forecasters who tracked Sinlaku's path provided advanced noticed to the communities - not because they were lucky, but because high-performance computing infrastructure was running models too large for any local machine to handle and processing data from satellites and weather stations in real time.
+
+This module opens that black box. How does cloud computing work? What is HPC and when do you need it? And how is this infrastructure already being used to support Pacific sustainability research?
 
 ---
 
 ### 🎬 Lecture Video
 
 ::: {.video-placeholder}
-**How It Works - Lecture Video (~10 min)**
+**How It Works - Lecture Video**
 
 *Your lecture video will go here. To embed a YouTube video, replace this block with:*
 
@@ -147,7 +150,8 @@ Visit the [Allen Coral Atlas](https://allencoralatlas.org){target="_blank"} and 
 :::
 
 ::: {.resource-link}
-📖 **Read more:** [PACCSAP Climate Projections](https://www.pacificclimatechangescience.org){target="_blank"} - find your island country's climate profile and read the indicators and projections section.
+📖 **Explore:** [NASA Pacific Flooding Analysis Tool](https://sealevel.nasa.gov/flooding-analysis-tool-pacific-islands/projected-flooding?units=meters){target="_blank"} - interactive tool showing projected high-tide flooding frequency and extent for Pacific island locations under different sea-level rise scenarios.
+
 :::
 
 ---
@@ -166,12 +170,6 @@ Using the Allen Coral Atlas and your island's PACCSAP climate profile, answer th
 3. What infrastructure runs it? (cloud, ML pipeline - describe in plain language)
 4. What decision could a marine manager or government official make using this?
 5. What would it take to run this analysis locally in your chosen island nation?
-
-**Part B - PACCSAP climate profile:**
-
-Identify **two model-derived climate indicators** a local planner or decision-maker could act on for your island. For each indicator note:
-- One **strength** of the data or model behind it
-- One **limitation**
 
 Add your responses to the **Week 3 section of your Pacific CI Portfolio** Google Doc and submit the link in Google Classroom.
 

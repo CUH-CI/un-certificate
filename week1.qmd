@@ -200,7 +200,7 @@ This module introduces **cyberinfrastructure** - a powerful set of tools that ca
 ### 🎬 Lecture Video
 
 ::: {.video-placeholder}
-**CI Foundations - Lecture Video (~10 min)**
+**CI Foundations - Lecture Video**
 
 *Your lecture video will go here. To embed a YouTube video, replace this block with:*
 

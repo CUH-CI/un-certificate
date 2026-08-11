@@ -25,7 +25,7 @@ But Pacific island nations are not passive victims. They are active leaders in s
 ### 🎬 Lecture Video
 
 ::: {.video-placeholder}
-**Sustainability in the Pacific - Lecture Video (~10 min)**
+**Sustainability in the Pacific - Lecture Video**
 
 *Your lecture video will go here. To embed a YouTube video, replace this block with:*
 
@@ -102,7 +102,7 @@ Now that you have a sense of what sustainability looks like in the Pacific conte
 ### 🎬 Lecture Video
 
 ::: {.video-placeholder}
-**CI Tools — Lecture Video (~10 min)**
+**CI Tools — Lecture Video**
 
 *Your lecture video will go here. To embed a YouTube video, replace this block with:*
 

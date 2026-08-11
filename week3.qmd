@@ -25,7 +25,7 @@ This infrastructure didn't build itself. It exists because researchers made the 
 ### 🎬 Lecture Video
 
 ::: {.video-placeholder}
-**Accessing CI / NSF — Lecture Video (~10 min)**
+**Accessing CI / NSF — Lecture Video**
 
 *Your lecture video will go here. To embed a YouTube video, replace this block with:*
 
@@ -65,7 +65,7 @@ No account needed - just explore and observe.
 :::
 
 ::: {.resource-link}
-📖 **Want to learn more about how to apply?** [Getting started with ACCESS allocations](https://allocations.access-ci.org/get-your-first-project){target="_blank"} - an overview of the four allocation tiers and what each one requires.
+📖 **Want to learn more about how to apply?** [Getting started with ACCESS allocations](https://allocations.access-ci.org/get-your-first-project){target="_blank"} - an overview of how to get started with your own allocation.
 :::
 
 ---
@@ -161,15 +161,15 @@ Visit the [Allen Coral Atlas](https://allencoralatlas.org){target="_blank"} and 
 ::: {.assignment-box}
 **Week 3 Assignment - CI Stack Reflection**
 
-Using the Allen Coral Atlas and your island's PACCSAP climate profile, answer the following:
+Using the Allen Coral Atlas, answer the following:
 
-**Part A - Allen Coral Atlas:**
+**Allen Coral Atlas:**
 
-1. Find one reef area showing change for your island. What does the change look like?
-2. What data fed this model? (satellite imagery, reference datasets)
-3. What infrastructure runs it? (cloud, ML pipeline - describe in plain language)
-4. What decision could a marine manager or government official make using this?
-5. What would it take to run this analysis locally in your chosen island nation?
+1. *What do you see?* Describe the reef health map for your island — what does it show about the current state of the reefs?
+2. *What change can you identify?* Find one area showing reef degradation or bleaching. What does the Atlas tell you about it?
+3. *Who built this and how?* Visit the [Attribution page](https://allencoralatlas.org/attribution/){target="_blank"} and [Partners page](https://allencoralatlas.org/partners/){target="_blank"}. Summarize what data was used to build this tool and who worked together to make it happen.
+4. *What decision could this inform?* Name one specific decision a marine manager, government official, or community leader in your island could make using this map.
+5. *What's missing?* What does this tool *not* tell you that a decision-maker would still need to know?
 
 Add your responses to the **Week 3 section of your Pacific CI Portfolio** Google Doc and submit the link in Google Classroom.
 
@@ -183,15 +183,15 @@ Add your responses to the **Week 3 section of your Pacific CI Portfolio** Google
 ::: {.task-list}
 
 ::: {.task-item}
-☐ **Watch the lecture video** - How It Works (~10 min)
+**Watch the lecture video** - How It Works (~10 min)
 :::
 
 ::: {.task-item}
-☐ **Explore the Allen Coral Atlas** - find your island country and identify reef change
+**Explore the Allen Coral Atlas** - find your island country and identify reef change
 :::
 
 ::: {.task-item}
-☐ **Submit your mini assignment** - add the CI stack reflection to your Pacific CI Portfolio and submit the link in Google Classroom
+**Submit your mini assignment** - add the CI stack reflection to your Pacific CI Portfolio and submit the link in Google Classroom
 :::
 
 :::

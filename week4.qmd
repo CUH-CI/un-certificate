@@ -12,18 +12,16 @@ Module 4
 
 ### 🪝 Hook
 
-Imagine this scenario: a government official in Tuvalu has a PACCSAP climate report on her desk. It has projections, probability distributions, and confidence intervals. Her meeting with the village council is in one hour. The council needs to decide whether to relocate a coastal community - a decision that will affect hundreds of families.
+Imagine you have access to sea level data, reef health maps, and climate projections for your island. Now, imagine sitting across from a local official who has to decide where to invest limited infrastructure funds. What do you actually say?
 
-What does she actually say?
-
-This is the last-mile problem - the gap between what cyberinfrastructure produces and what decision-makers can actually use. This module is about bridging that gap.
+This is the **last-mile problem** - the gap between what cyberinfrastructure produces and what decision-makers can actually use. Data alone doesn't make decisions. Someone has to translate it, communicate it, and connect it to action. This module is about that gap - and how to bridge it.
 
 ---
 
 ### 🎬 Lecture Video
 
 ::: {.video-placeholder}
-**Data to Decisions - Lecture Video (~10 min)**
+**Data to Decisions - Lecture Video**
 
 *Your lecture video will go here. To embed a YouTube video, replace this block with:*
 
@@ -36,24 +34,23 @@ title="Data to Decisions" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-### 🗺️ Hands-on Use Case - Vanuatu National Adaptation Plan
+**Nationally Determined Contributions (NDCs)** are climate commitments each country submits under the Paris Agreement — outlining what they plan to do to reduce emissions and adapt to climate change. The **Regional Pacific NDC Hub** supports 14 Pacific island nations in developing and implementing these plans, and their website brings together country profiles, climate commitments, and implementation resources in one place.
 
-National Adaptation Plans (NAPs) are real government documents that show how CI-derived data - climate projections, sea level models, disaster risk assessments - gets translated into policy decisions. Vanuatu's NAP is one of the most developed in the Pacific and draws directly on PACCSAP climate projections generated on HPC infrastructure.
+NDCs are a real example of the last-mile problem in action — they take scientific data and climate projections and translate them into government commitments and policy priorities.
 
 ::: {.fieldtrip-box}
 **Your task this module:**
 
-Find and read the evidence and data section of a Pacific National Adaptation Plan. You can use Vanuatu's NAP or find one for your chosen island country.
-
-- NAPs are available via [UNFCCC NAP Central](https://napcentral.org/submitted-NAPs){target="_blank"} - search for your island country or browse the Pacific region
-- Read the evidence and data section (~5–10 pages)
+Visit the [Regional Pacific NDC Hub](https://pacificndc.org){target="_blank"} and explore resources for your chosen island country.
 
 **What to look for:**
 
-- What data and CI tools are referenced in the plan?
-- How are climate projections translated into specific policy recommendations?
-- Who is identified as responsible for acting on the data?
-- What data gaps or limitations are acknowledged?
+- Does your island country have an NDC profile or resources on the hub?
+- What sustainability priorities and climate commitments are highlighted?
+- What data or evidence is referenced to support those commitments? (Read some of the documents under the country's profile.)
+- How does the language in these documents connect to the CI tools and data you've explored in previous weeks?
+
+If your island country is not one of the 14 Hub member countries, browse the profile of the geographically closest member country and note the similarities and differences.
 :::
 
 ::: {.resource-link}
@@ -67,7 +64,7 @@ Find and read the evidence and data section of a Pacific National Adaptation Pla
 ::: {.assignment-box}
 **Week 4 Assignment - Stakeholder + CI Pipeline Map**
 
-For your chosen island country and sustainability challenge, produce a structured map covering the following five areas. This map becomes the evidence section of your policy brief in Weeks 5 and 6 - so be as specific and honest as you can. Identifying gaps is just as valuable as identifying what exists.
+For your chosen island country and sustainability challenge, produce a structured map/document covering the following five areas. This map becomes the evidence section of your policy brief in Weeks 5 and 6 - so be as specific and honest as you can. Identifying gaps is just as valuable as identifying what exists.
 
 1. **The sustainability problem:** One clear sentence describing the challenge and who is affected.
 2. **Key decision-makers:** Who are the 2-3 people or institutions that make decisions about this challenge? (e.g. Ministry of Environment, village council, regional fisheries body)
@@ -86,7 +83,7 @@ Add your responses to the **Week 4 section of your Pacific CI Portfolio** Google
 
 **This week's discussion is in Google Classroom.**
 
-> *"For the assignment, you mapped who is excluded from the data or the decision. Did this surpise you - and what does it tell you about where cyberinfrastructure needs to go next in the Pacific?"*
+> *For the assignment, you mapped who is excluded from the data or the decision. Did this surpise you - and what does it tell you about where cyberinfrastructure needs to go next in the Pacific?*
 
 Respond in 2–3 sentences.
 
@@ -105,7 +102,7 @@ Respond in 2–3 sentences.
 ::: {.task-list}
 
 ::: {.task-item}
-☐ **Watch the lecture video** - Data to Decisions (~10 min)
+☐ **Watch the lecture video** - Data to Decisions
 :::
 
 ::: {.task-item}

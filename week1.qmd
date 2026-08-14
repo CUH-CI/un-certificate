@@ -142,6 +142,19 @@ No prior technical experience is needed. The policy brief is assessed on your re
 
 [→ Read more about the Final Project](project.qmd){.btn .btn-outline-primary}
 
+
+---
+
+### Discussion Prompt
+
+**This week's first discussion in Google Classroom.**
+
+> *Introduce yourself - please include your name, where you're from, and why you joined the course.*
+
+Respond in 2–3 sentences minimum.
+
+[→ Go to Week 1 Discussion in Google Classroom](https://classroom.google.com){.btn .btn-outline-primary target="_blank"}
+
 ---
 
 ### ✅ Tasks to Complete - Module 1A
@@ -255,7 +268,7 @@ Add your responses to the **Week 1 section of your Pacific CI Portfolio** Google
 
 ### Discussion Prompt
 
-**This week's discussion in Google Classroom.**
+**This week's second discussion in Google Classroom.**
 
 > *Before we dive in - what do you think of when you hear the word 'cyberinfrastructure'? No wrong answers. Just your honest first impression.*
 

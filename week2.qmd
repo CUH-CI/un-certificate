@@ -102,7 +102,7 @@ Now that you have a sense of what sustainability looks like in the Pacific conte
 ### 🎬 Lecture Video
 
 ::: {.video-placeholder}
-**CI Tools — Lecture Video**
+**CI Tools - Lecture Video**
 
 *Your lecture video will go here. To embed a YouTube video, replace this block with:*
 

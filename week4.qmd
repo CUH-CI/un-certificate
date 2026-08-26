@@ -34,9 +34,11 @@ title="Data to Decisions" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-**Nationally Determined Contributions (NDCs)** are climate commitments each country submits under the Paris Agreement — outlining what they plan to do to reduce emissions and adapt to climate change. The **Regional Pacific NDC Hub** supports 14 Pacific island nations in developing and implementing these plans, and their website brings together country profiles, climate commitments, and implementation resources in one place.
+### 🖥️ Hands-On Use Case - Regional Pacific NDC Hub
 
-NDCs are a real example of the last-mile problem in action — they take scientific data and climate projections and translate them into government commitments and policy priorities.
+**Nationally Determined Contributions (NDCs)** are climate commitments each country submits under the Paris Agreement - outlining what they plan to do to reduce emissions and adapt to climate change. The **Regional Pacific NDC Hub** supports 14 Pacific island nations in developing and implementing these plans, and their website brings together country profiles, climate commitments, and implementation resources in one place.
+
+NDCs are a real example of the last-mile problem in action - they take scientific data and climate projections and translate them into government commitments and policy priorities.
 
 ::: {.fieldtrip-box}
 **Your task this module:**
@@ -45,7 +47,7 @@ Visit the [Regional Pacific NDC Hub](https://pacificndc.org){target="_blank"} an
 
 **What to look for:**
 
-- Does your island country have an NDC profile or resources on the hub?
+- Does your island country have an NDC profile or resources on the hub? 
 - What sustainability priorities and climate commitments are highlighted?
 - What data or evidence is referenced to support those commitments? (Read some of the documents under the country's profile.)
 - How does the language in these documents connect to the CI tools and data you've explored in previous weeks?
@@ -54,7 +56,7 @@ If your island country is not one of the 14 Hub member countries, browse the pro
 :::
 
 ::: {.resource-link}
-📖 **Read more:** [CARE Principles for Indigenous Data Governance](https://static1.squarespace.com/static/5d3799de845604000199cd24/t/6397b363b502ff481fce6baf/1670886246948/CARE%2BPrinciples_One%2BPagers%2BFINAL_Oct_17_2019.pdf){target="_blank"} — approximately 5 pages. Consider how each principle applies to Pacific data governance contexts.
+📖 **Read more:** [CARE Principles for Indigenous Data Governance](https://static1.squarespace.com/static/5d3799de845604000199cd24/t/6397b363b502ff481fce6baf/1670886246948/CARE%2BPrinciples_One%2BPagers%2BFINAL_Oct_17_2019.pdf){target="_blank"} - Approximately 5 pages. Consider how each principle applies to Pacific data governance contexts.
 :::
 
 ---
@@ -83,7 +85,7 @@ Add your responses to the **Week 4 section of your Pacific CI Portfolio** Google
 
 **This week's discussion is in Google Classroom.**
 
-> *For the assignment, you mapped who is excluded from the data or the decision. Did this surpise you - and what does it tell you about where cyberinfrastructure needs to go next in the Pacific?*
+> *For the assignment, you mapped who is excluded from the data or the decision. Did this surprise you - and what does it tell you about where cyberinfrastructure needs to go next in the Pacific?*
 
 Respond in 2–3 sentences.
 
@@ -102,19 +104,19 @@ Respond in 2–3 sentences.
 ::: {.task-list}
 
 ::: {.task-item}
-☐ **Watch the lecture video** - Data to Decisions
+**Watch the lecture video** - Data to Decisions
 :::
 
 ::: {.task-item}
-☐ **Go through the hands-on use case** - read the evidence section of a Pacific National Adaptation Plan
+**Go through the hands-on use case** - read the evidence section of a Pacific National Adaptation Plan
 :::
 
 ::: {.task-item}
-☐ **Submit your mini assignment** - add the stakeholder + CI pipeline map to your Pacific CI Portfolio and submit the link in Google Classroom
+**Submit your mini assignment** - add the stakeholder + CI pipeline map to your Pacific CI Portfolio and submit the link in Google Classroom
 :::
 
 ::: {.task-item}
-☐ **Submit the discussion** - respond to the Week 4 discussion prompt in Google Classroom
+**Submit the discussion** - respond to the Week 4 discussion prompt in Google Classroom
 :::
 
 :::

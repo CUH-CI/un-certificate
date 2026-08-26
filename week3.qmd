@@ -49,7 +49,7 @@ Visit [ACCESS Current Projects](https://allocations.access-ci.org/current-projec
 
 Use the *Field of Science* filter to browse projects relevant to your island's sustainability challenge. Try fields like:
 
-- Oceanograyphy and Ocean Sciences
+- Oceanography and Ocean Sciences
 - Agriculture, Forestry, and Fisheries
 - Environmental Biology
 - Economics and Business
@@ -75,7 +75,7 @@ No account needed - just explore and observe.
 ::: {.task-list}
 
 ::: {.task-item}
-**Watch the lecture video** - Accessing CI / NSF (~10 min)
+**Watch the lecture video** - Accessing CI / NSF
 :::
 
 ::: {.task-item}
@@ -108,7 +108,7 @@ Module 3B
 
 ### 🪝 Hook
 
-In April 2026, Super Typhoon Sinlaku formed in the western Pacific and rapidly grew to a Category 5, 185-mph storm. It first hit Chuuk in the Federated States of Micronesia, then struck Saipan and Tinian in the Commonwealth of the Northern Mariana Islands. The storm flipped cars, toppled utility poles, and ripped away tin roofs - leaving much of Saipan without power. 
+In April 2026, Super Typhoon Sinlaku formed in the western Pacific and rapidly grew to a Category 5, 185-mph storm. It first hit Chuuk in the Federated States of Micronesia, then struck Saipan and Tinian in the Commonwealth of the Northern Mariana Islands. The storm flipped cars, toppled utility poles, and ripped away tin roofs - leaving much of the CNMI without power. 
 
 The forecasters who tracked Sinlaku's path provided advanced noticed to the communities - not because they were lucky, but because high-performance computing infrastructure was running models too large for any local machine to handle and processing data from satellites and weather stations in real time.
 
@@ -150,7 +150,7 @@ Visit the [Allen Coral Atlas](https://allencoralatlas.org){target="_blank"} and 
 :::
 
 ::: {.resource-link}
-📖 **Explore:** [NASA Pacific Flooding Analysis Tool](https://sealevel.nasa.gov/flooding-analysis-tool-pacific-islands/projected-flooding?units=meters){target="_blank"} - interactive tool showing projected high-tide flooding frequency and extent for Pacific island locations under different sea-level rise scenarios.
+📖 **Explore:** [NASA Pacific Flooding Analysis Tool](https://sealevel.nasa.gov/flooding-analysis-tool-pacific-islands/projected-flooding?units=meters){target="_blank"} - an interactive tool showing projected high-tide flooding frequency and extent for Pacific island locations under different sea-level rise scenarios
 
 :::
 
@@ -167,7 +167,11 @@ Using the Allen Coral Atlas, answer the following:
 
 1. *What do you see?* Describe the reef health map for your island — what does it show about the current state of the reefs?
 2. *What change can you identify?* Find one area showing reef degradation or bleaching. What does the Atlas tell you about it?
-3. *Who built this and how?* Visit the [Attribution page](https://allencoralatlas.org/attribution/){target="_blank"} and [Partners page](https://allencoralatlas.org/partners/){target="_blank"}. Summarize what data was used to build this tool and who worked together to make it happen.
+3. *Trace the CI stack.* Visit the [Attribution page](https://allencoralatlas.org/attribution/) and [Partners page](https://allencoralatlas.org/partners/). Based on what you find, briefly describe each layer of the CI stack behind this tool:
+   - **Data:** What satellite imagery and field data were used?
+   - **Computing:** What kind of infrastructure processed and analyzed this data? (Hint: think about what it would take to process satellite imagery for every reef on Earth)
+   - **People and organizations:** Who built and maintains this? Name at least two organizations from the Partners page.
+   - **Network:** How do you- a user anywhere in the world - access this tool?
 4. *What decision could this inform?* Name one specific decision a marine manager, government official, or community leader in your island could make using this map.
 5. *What's missing?* What does this tool *not* tell you that a decision-maker would still need to know?
 
@@ -178,12 +182,12 @@ Add your responses to the **Week 3 section of your Pacific CI Portfolio** Google
 
 ---
 
-### ✅ Tasks to Complete — Module 3B
+### ✅ Tasks to Complete - Module 3B
 
 ::: {.task-list}
 
 ::: {.task-item}
-**Watch the lecture video** - How It Works (~10 min)
+**Watch the lecture video** - How It Works
 :::
 
 ::: {.task-item}

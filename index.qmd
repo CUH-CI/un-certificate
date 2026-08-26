@@ -6,7 +6,9 @@ toc: false
 
 ::: {.hero-banner}
 
-# Cyberinfrastructure Fundamentals
+# Cyberinfrastructure Fundamentals:
+*Supporting Resilience and Security in the Hawai`i-Pacific Region*
+
 ### A short course on cyberinfrastructure and its role in addressing sustainability challenges in the Pacific region
 
 ::: {.hero-buttons}

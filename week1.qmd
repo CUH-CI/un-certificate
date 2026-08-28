@@ -67,7 +67,7 @@ Define cyberinfrastructure and explain why it matters specifically for Small Isl
 
 ::: {.outcome-card}
 **🛠️ Navigate real tools**
-Identify and explore key CI tools and platforms - including NSF resources, science gateways, and cloud platforms - relevant to Pacific sustainability research.
+Identify and explore key CI tools and platforms - including NSF resources, science gateways, and the SIDS data portal - relevant to Pacific sustainability research.
 :::
 
 ::: {.outcome-card}

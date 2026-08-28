@@ -18,7 +18,7 @@ This project is designed to be completed by students of all technical background
 
 ## The Policy Brief
 
-Your policy brief should be **2-3 pages** and follow the five-section structure below. Each section connects directly to work you've already done in your portfolio.
+Your policy brief should be **2-3 pages** and follow the five-section structure below. Each section connects directly to work you've already done in your portfolio. Cite your sources (MLA or APA format is okay)
 
 ::: {.assignment-box}
 **Five-Section Structure**

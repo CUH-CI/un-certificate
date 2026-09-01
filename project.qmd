@@ -8,6 +8,17 @@ toc-title: "On this page"
 Final Project
 :::
 
+### 🎬 Lecture Video
+
+::: {.video-placeholder}
+**Data to Decisions - Lecture Video**
+
+```{=html}
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/eiQVXwcZvFI" 
+title="Tools" frameborder="0" allowfullscreen></iframe>
+```
+
+:::
 ## Overview
 
 Over the four instructional weeks you built a **Pacific CI Portfolio** - a living document capturing your work week by week. Now it's time to assemble that portfolio into your final deliverable: a **policy brief** proposing how cyberinfrastructure could improve sustainability decision-making for your chosen Pacific island nation.

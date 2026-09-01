@@ -25,13 +25,11 @@ This infrastructure didn't build itself. It exists because researchers made the 
 ### 🎬 Lecture Video
 
 ::: {.video-placeholder}
-**Accessing CI / NSF — Lecture Video**
+**Accessing CI / NSF - Lecture Video**
 
-*Your lecture video will go here. To embed a YouTube video, replace this block with:*
-
-```{{=html}}
-<iframe width="100%" height="415" src="https://www.youtube.com/embed/YOUR-VIDEO-ID" 
-title="Accessing CI / NSF" frameborder="0" allowfullscreen></iframe>
+```{=html}
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/esvG6REzC08" 
+title="Tools" frameborder="0" allowfullscreen></iframe>
 ```
 
 :::
@@ -121,11 +119,9 @@ This module opens that black box. How does cloud computing work? What is HPC and
 ::: {.video-placeholder}
 **How It Works - Lecture Video**
 
-*Your lecture video will go here. To embed a YouTube video, replace this block with:*
-
-```{{=html}}
-<iframe width="100%" height="415" src="https://www.youtube.com/embed/YOUR-VIDEO-ID" 
-title="How It Works" frameborder="0" allowfullscreen></iframe>
+```{=html}
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/m_WZL6EzCLg" 
+title="Tools" frameborder="0" allowfullscreen></iframe>
 ```
 
 :::

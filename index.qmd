@@ -17,157 +17,36 @@ toc: false
 
 :::
 
-::: {.course-intro}
-
 ## What is this course about?
 
-Pacific Islands are on the front lines of climate change - rising seas, intensifying typhoons, and shrinking freshwater supplies threaten communities across the region. To address these challenges, what tools, resources, and data exist? 
+Pacific Islands are on the front lines of climate change with rising sea levels, intensifying typhoons, and shrinking freshwater supplies that threaten communities across the region. To address these challenges, what tools, resources, and data exist? 
 
-This course introduces **cyberinfrastructure** - the hardware, software, data systems, networks, and human capacity that power modern research - and explores how it can be leveraged for sustainability decision-making in Small Island Developing States (SIDS) and the Pacific region.
+This course introduces **cyberinfrastructure**, the hardware, software, data systems, networks, and human capacity that power modern research, and explores how it can be leveraged for sustainability decision-making in Small Island Developing States (SIDS) and the Pacific region.
 
-No coding experience required. Just curiosity and a commitment to the Pacific.
-
-:::
-
-::: {.course-stats}
-
-::: {.stat-box}
-**6**
-Weeks
-:::
-
-::: {.stat-box}
-**8**
-Modules
-:::
-
-
-::: {.stat-box}
-**1**
-Final Project
-:::
-
-:::
+For this course, there is no coding experience required.
 
 
 ## Course Outline
+::: {.course-outline}
 
-::: {.week-cards-grid}
-
-::: {.week-card}
-::: {.week-card-header}
-### Week 1
-:::
-::: {.week-card-body}
-**Getting Started**
-
-CI Foundations and Course Introduction
-
-::: {.due-date}
-📅 Due Sunday, end of Week 1 - 11:59pm HST
-:::
-
-[→ Go to Week 1](week1.qmd)
-:::
-:::
-
-::: {.week-card}
-::: {.week-card-header}
-### Week 2
-:::
-::: {.week-card-body}
-**The Pacific Context and CI Tools**
-
-Pacific Introduction and Tools Overview
-
-::: {.due-date}
-📅 Due Sunday, end of Week 2 - 11:59pm HST
-:::
-
-[→ Go to Week 2](week2.qmd)
-:::
-:::
-
-::: {.week-card}
-::: {.week-card-header}
-### Week 3
-:::
-::: {.week-card-body}
-**Accessing CI and How It Works**
-
-NSF Resources and Cloud/HPC Infrastructure
-
-::: {.due-date}
-📅 Due Sunday, end of Week 3 - 11:59pm HST
-:::
-
-[→ Go to Week 3](week3.qmd)
-:::
-:::
-
-::: {.week-card}
-::: {.week-card-header}
-### Week 4
-:::
-::: {.week-card-body}
-**From Data to Decisions**
-
-Translating CI Outputs Into Sustainability Policy
-
-::: {.due-date}
-📅 Due Sunday, end of Week 4 - 11:59pm HST
-:::
-
-[→ Go to Week 4](week4.qmd)
-:::
-:::
-
-::: {.week-card}
-::: {.week-card-header}
-### Weeks 5–6
-:::
-::: {.week-card-body}
-**Final Project**
-
-Drafting and Finalizing Policy Brief Project
-
-::: {.due-date}
-📅 Policy brief due Sunday, end of Week 6 - 11:59pm HST
-:::
-
-[→ Final Project](project.qmd)
-:::
-
+| Week | Topic | Content | Due |
+|------|-------|---------|-----|
+| Week 1 | [Getting Started](week1.qmd) | CI Foundations and Course Introduction | Sunday, End of Week 1 |
+| Week 2 | [Pacific Context and CI Tools](week2.qmd) | Pacific Introduction and Tools Overview | Sunday, End of Week 2 |
+| Week 3 | [Accessing CI and How It Works](week3.qmd) | NSF Resources and Cloud/HPC Infrastructure | Sunday, End of Week 3 |
+| Week 4 | [From Data to Decisions](week4.qmd) | Translating CI Outputs Into Sustainability Policy | Sunday, End of Week 4 |
+| Weeks 5-6 | [Final Project](project.qmd) | Drafting and Finalizing the Policy Brief | Sunday, End of Week 6 |
 
 :::
-:::
-
-::: {.contact-section}
 
 ## Contact & Office Hours
 
-::: {.contact-grid}
+**Email:** [victoria.delacruz@chaminade.edu](mailto:victoria.delacruz@chaminade.edu)
 
-::: {.contact-card}
-### 📧 Email
-[victoria.delacruz@chaminade.edu](mailto:victoria.delacruz@chaminade.edu)
-:::
+**Virtual office hours:** Tuesdays 11am - 12pm HST [Join via Google Meet](https://meet.google.com/xzn-hmtw-htx){target="_blank"}
 
-::: {.contact-card}
-### 🕐 Office Hours
-**Virtual - via Google Meets**
+**In-person & virtual office hours:** Wednesdays 1pm - 2:30pm HST - Tredtin 202, Chaminade University or [join via Google Meet](https://meet.google.com/xzn-hmtw-htx){target="_blank"}
 
-Tuesdays 11 am - 12 pm HST
+**By appointment:** Email to schedule
 
-Join scheduled office hours [here](https://meet.google.com/xzn-hmtw-htx)
-
-**In Person - Tredtin 202, Chaminade University**
-
-Wednesdays 12:00 - 1 pm HST
-
-Or by appointment - email to schedule
-:::
-
-:::
-
-:::
+**Resources used for the course:** View this [document](https://docs.google.com/document/d/1mq18LROh21rIkGDXadhTGb2UC0kTibX96Ve4rHOk_cE/edit?tab=t.0) for resources used to help develop this course

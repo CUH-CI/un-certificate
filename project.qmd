@@ -4,11 +4,7 @@ toc: true
 toc-title: "On this page"
 ---
 
-::: {.module-tag}
-Final Project
-:::
-
-### 🎬 Lecture Video
+### Lecture Video
 
 ::: {.video-placeholder}
 **Data to Decisions - Lecture Video**
@@ -57,32 +53,32 @@ What should a specific, named decision-maker do - and by when?
 ::: {.outcomes-grid}
 
 ::: {.outcome-card}
-**🏝️ Specific and grounded**
+**Specific and grounded**
 Names a specific Pacific island nation and a specific sustainability challenge - not a general topic.
 :::
 
 ::: {.outcome-card}
-**🛠️ Uses real tools**
+**Uses real tools**
 References at least two real CI tools, datasets, or platforms encountered during the course.
 :::
 
 ::: {.outcome-card}
-**🔍 Identifies a concrete gap**
+**Identifies a concrete gap**
 Names a specific CI gap - not just "more data is needed" but what data, held by whom, used by whom.
 :::
 
 ::: {.outcome-card}
-**⚖️ Acknowledges equity**
+**Acknowledges equity**
 Includes a frank limitations section acknowledging equity, access, or sovereignty concerns.
 :::
 
 ::: {.outcome-card}
-**📢 Clear call to action**
+**Clear call to action**
 Ends with a call to action addressed to a real, named decision-maker - not a generic recommendation.
 :::
 
 ::: {.outcome-card}
-**📁 Builds on your portfolio**
+**Builds on your portfolio**
 Draws visibly from your Pacific CI Portfolio - the brief should feel earned, not written from scratch.
 :::
 
@@ -140,7 +136,7 @@ Before writing your full draft, submit a brief outline in Google Classroom cover
 
 Please allow *48 hours* for feedback from the instructor.  
 
-[→ Submit Week 5 Outline in Google Classroom](https://classroom.google.com){.btn .btn-primary target="_blank"}
+[→ Submit Week 5 Outline in Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz/a/ODc3NTEwOTcxMjA2/details){.btn .btn-primary target="_blank"}
 :::
 
 ::: {.task-list}
@@ -164,7 +160,7 @@ Week 6 is your finishing and submission week. Incorporate feedback from your Wee
 
 **2. Recorded presentation** - 5-minute video summarizing your policy brief. Slides recommended. Submit your video link or file in Google Classroom.
 
-[→ Submit Week 6 Final Project in Google Classroom](https://classroom.google.com){.btn .btn-primary target="_blank"}
+[→ Submit Week 6 Final Project in Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz/a/ODc3NTEyMjAzMjA4/details){.btn .btn-primary target="_blank"}
 :::
 
 ::: {.task-list}
@@ -186,7 +182,7 @@ Week 6 is your finishing and submission week. Incorporate feedback from your Wee
 ---
 
 ::: {.next-module}
-🎉 You made it through the course - good luck with your final project! 
+You made it through the course - good luck with your final project! 
 
 After review of your policy brief and presentation, your U.N. certificate will be sent to you. For any questions, comments, or feedback, please email victoria.delacruz@chaminade.edu
 :::

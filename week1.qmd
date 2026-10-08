@@ -4,20 +4,18 @@ toc: true
 toc-title: "On this page"
 ---
 
-## Course Introduction {#course-introduction}
+## Module 1A: Course Introduction {#course-introduction}
 
-::: {.module-tag}
-Module 1A
-:::
-
-::: {.video-placeholder}
-🎬 **Welcome Video**
+### Welcome Video
 
 ```{=html}
 <iframe width="100%" height="415" src="https://www.youtube.com/embed/kWqU-Z53clI" 
 title="Course Introduction" frameborder="0" allowfullscreen></iframe>
 ```
 
+
+::: {.resource-link}
+**Recommended video:** [Course Logistics](https://www.youtube.com/watch?v=Y44UxdiFkO4){target="_blank"} - Watch this video for a Google Classroom overview, setting sharing permissions, submitting assignments, and joining office hours. 
 :::
 ---
 
@@ -25,27 +23,43 @@ title="Course Introduction" frameborder="0" allowfullscreen></iframe>
 
 Before diving into the content, complete these three steps to get your course environment ready.
 
-::: {.setup-cards}
+::: {.setup-steps}
 
-::: {.setup-card}
-### 1. Join Google Classroom
-Click the link below to join the course Google Classroom. This is where you'll submit assignments, participate in discussions, and receive feedback.
+::: {.setup-step}
+::: {.setup-num}
+1.
+:::
+::: {.setup-content}
+**Join Google Classroom**
 
-[→ Join Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz?cjc=osrdg243){.btn .btn-primary target="_blank"}
+This is where you'll submit assignments, participate in discussions, and receive feedback.
+
+[→ Join Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz?cjc=osrdg243){target="_blank"}
+:::
 :::
 
-::: {.setup-card}
-### 2. Bookmark this site
-Add this course site to your browser bookmarks - it's your home base for all course content, lecture videos, and module instructions. Every week you'll start here.
+::: {.setup-step}
+::: {.setup-num}
+2.
+:::
+::: {.setup-content}
+**Bookmark this site**
+
+Your home base for all course content, lecture videos, and module instructions. Every week you'll start here.
+:::
 :::
 
-::: {.setup-card}
-### 3. Make a copy of the Portfolio Template
-Your **Pacific CI Portfolio** is a Google Doc you'll add to each week. By Week 5 it becomes the foundation of your final project.
+::: {.setup-step}
+::: {.setup-num}
+3.
+:::
+::: {.setup-content}
+**Make a copy of the Pacific CI Portfolio Template**
 
-[→ Make a copy of the Portfolio Template](https://docs.google.com/){.btn .btn-primary target="_blank"}
+A Google Doc you'll add to each week. More information about the Pacific CI Portfolio can be found in the Course Logistics video. 
 
-*Once you've made your copy, keep the link handy - you'll submit it in Google Classroom each week.*
+[→ Make a copy of the Portfolio Template](https://docs.google.com/document/d/1jxfKK9jEdjLkdEhktypKGy290JdeuqtOKBgEEbA88XA/edit?tab=t.0#heading=h.9viafcyw7hju){target="_blank"}
+:::
 :::
 
 :::
@@ -56,29 +70,10 @@ Your **Pacific CI Portfolio** is a Google Doc you'll add to each week. By Week 5
 
 By the end of this course you will be able to:
 
-::: {.outcomes-grid}
-
-::: {.outcome-card}
-**🌏 Understand CI in context**
-Define cyberinfrastructure and explain why it matters specifically for Small Island Developing States and Pacific sustainability challenges.
-:::
-
-::: {.outcome-card}
-**🛠️ Navigate real tools**
-Identify and explore key CI tools and platforms - including NSF resources, science gateways, and the SIDS data portal - relevant to Pacific sustainability research.
-:::
-
-::: {.outcome-card}
-**📊 Bridge data and decisions**
-Analyze how CI outputs are translated into actionable indicators and policy decisions, and recognize where gaps and equity concerns arise.
-:::
-
-::: {.outcome-card}
-**📄 Produce a policy brief**
-Design a CI-informed policy brief proposing how cyberinfrastructure could improve sustainability decision-making for a Pacific island nation of your choosing.
-:::
-
-:::
+- **Understand CI in context** - Define cyberinfrastructure and explain why it matters specifically for Small Island Developing States and Pacific sustainability challenges.
+- **Navigate real tools** - Identify and explore key CI tools and platforms, including NSF resources, science gateways, and the SIDS data portal, relevant to Pacific sustainability research.
+- **Bridge data and decisions** - Analyze how CI outputs are translated into actionable indicators and policy decisions, and recognize where gaps and equity concerns arise.
+- **Produce a policy brief** - Design a CI-informed policy brief proposing how cyberinfrastructure could improve sustainability decision-making for a Pacific island nation of your choosing.
 
 ---
 
@@ -147,15 +142,19 @@ No prior technical experience is needed. The policy brief is assessed on your re
 
 **This week's first discussion in Google Classroom.**
 
-> *Introduce yourself - please include your name, where you're from, and why you joined the course.*
+::: {.disc-prompt}
+Introduce yourself - please include your name, where you're from, and why you joined the course.
+:::
 
+::: {.disc-meta}
 Respond in 2–3 sentences minimum.
+:::
 
-[→ Go to Week 1 Discussion in Google Classroom](https://classroom.google.com){.btn .btn-outline-primary target="_blank"}
+[→ Go to Week 1 Discussion in Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz/sa/ODc2OTU4MzM0Mzcw/details){.btn .btn-outline-primary target="_blank"}
 
 ---
 
-### ✅ Tasks to Complete - Module 1A
+### Tasks to Complete - Module 1A
 
 Complete these before moving on to Module 1B.
 
@@ -179,36 +178,30 @@ Complete these before moving on to Module 1B.
 
 :::
 
----
 
 ::: {.next-module}
 Ready? Let's get started! →  [Module 1B: CI Foundations](week1.qmd#ci-foundations)
 :::
 
----
 
-## CI Foundations {#ci-foundations}
+## Module 1B: CI Foundations {#ci-foundations}
 
-::: {.module-tag}
-Module 1B
-:::
+### Background
 
-### 🪝 Hook
+Pacific island communities are already leading in sustainability and climate action by combining traditional knowledge, local expertise, and scientific tools to address some of the world's most urgent sustainability challenges. However, accessing the data and computational tools that could support that work isn't always straightforward.
 
-Pacific island communities are already leading in sustainability and climate action - combining traditional knowledge, local expertise, and scientific tools to address some of the world's most urgent sustainability challenges. But accessing the data and computational tools that could support that work isn't always straightforward.
+This module introduces **cyberinfrastructure**: a powerful set of tools that can help bridge the gap between the data that exists and the decisions that need to be made.
 
-This module introduces **cyberinfrastructure** - a powerful set of tools that can help bridge the gap between the data that exists and the decisions that need to be made.
-
-> *"Pacific Islanders are leading climate action and combining their own systems of knowledge with western science to implement locally relevant climate solutions."*
-> - [Frontiers in Marine Science, 2019](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00289/full)
+*"Pacific Islanders are leading climate action and combining their own systems of knowledge with western science to implement locally relevant climate solutions."*
+- [Frontiers in Marine Science, 2019](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00289/full)
 
 ::: {.resource-link}
-📖 **Recommended video:** [Definition of Cyberinfrastructure](https://www.youtube.com/watch?v=R25Pa5uSoEg){target="_blank"} - Watch this video for a brief overview of what cyberinfrastructure is. 
+**Recommended video:** [Definition of Cyberinfrastructure](https://www.youtube.com/watch?v=R25Pa5uSoEg){target="_blank"} - Watch this video for a brief overview of what cyberinfrastructure is. 
 :::
 
 ---
 
-### 🎬 Lecture Video
+### Lecture Video
 
 ::: {.video-placeholder}
 **CI Foundations - Lecture Video**
@@ -224,7 +217,7 @@ title="CI Foundations" frameborder="0" allowfullscreen></iframe>
 
 ### Hands-On Use Case - Pacific Data Hub
 
-The **Pacific Data Hub** is a regional cyberinfrastructure platform aggregating climate, fisheries, ocean, and demographic data from 20+ Pacific nations. This is cyberinfrastructure in action - a shared regional platform that gives researchers and decision-makers across the Pacific access to data they couldn't build or maintain independently.
+The **Pacific Data Hub** is a regional cyberinfrastructure platform aggregating climate, fisheries, ocean, and demographic data from 20+ Pacific nations. This is cyberinfrastructure in action, a shared regional platform that gives researchers and decision-makers across the Pacific access to data they couldn't build or maintain independently.
 
 ::: {.fieldtrip-box}
 **Your task this week:**
@@ -241,23 +234,23 @@ Visit [pacificdata.org](https://pacificdata.org){target="_blank"} and spend 10-2
 
 ---
 
-### 📋 Mini Assignment - Data Audit
+### Mini Assignment - Data Audit
 
 ::: {.assignment-box}
 **Week 1 Assignment - Data Audit**
 
-Using the Pacific Data Hub, choose **one Pacific island country** - this will be your focus for all four portfolio entries throughout the course. Find **two datasets** tied to a sustainability challenge (sea level, freshwater, fisheries, coral reefs, food security, or another challenge relevant to your island).
+Using the Pacific Data Hub, choose **one Pacific island country**. This will be your focus for all four portfolio entries throughout the course. Find **two datasets** tied to a sustainability challenge (sea level, freshwater, fisheries, coral reefs, food security, or another challenge relevant to your island).
 
 **For each dataset, answer these four prompts:**
 
 1. **Decision value:** What specific question could a local planner, official, or community leader answer using this data?
-2. **Who decides:** Name one real role who would use this - e.g. fisheries officer, disaster risk manager, mayor.
+2. **Who decides:** Name one real role who would use this (e.g. fisheries officer, disaster risk manager, mayor).
 3. **Data gap:** What is missing, outdated, or too coarse to make that decision confidently?
-4. **Infrastructure gap:** Is the gap a data problem, a connectivity problem, a capacity problem - or all three?
+4. **Infrastructure gap:** Is the gap a data problem, a connectivity problem, a capacity problem, or all three?
 
 Add your responses to the **Week 1 section of your Pacific CI Portfolio** Google Doc. When you're done, submit your portfolio link in Google Classroom.
 
-[→ Submit Week 1 Assignment in Google Classroom](https://classroom.google.com){.btn .btn-primary target="_blank"}
+[→ Submit Week 1 Assignment in Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz/a/ODcyNjc0NjEzMDY4/details){.btn .btn-primary target="_blank"}
 :::
 
 ---
@@ -266,26 +259,24 @@ Add your responses to the **Week 1 section of your Pacific CI Portfolio** Google
 
 **This week's second discussion in Google Classroom.**
 
-> *Before we dive in - what do you think of when you hear the word 'cyberinfrastructure'? No wrong answers. Just your honest first impression.*
+::: {.disc-prompt}
+What do you think of when you hear the word 'cyberinfrastructure'? No wrong answers, just your honest first impression.
+:::
 
+::: {.disc-meta}
 Respond in 2–3 sentences minimum.
+:::
 
-[→ Go to Week 1 Discussion in Google Classroom](https://classroom.google.com){.btn .btn-outline-primary target="_blank"}
-
----
-
-### Closing Thoughts
-
-> *The Pacific Data Hub now gives a fisheries officer in Nauru access to regional ocean data that would have taken weeks to gather a decade ago. That's what shared cyberinfrastructure makes possible - and you're just getting started.*
+[→ Go to Week 1 Discussion #2 in Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz/sa/ODc3NTA3MzkwNjIx/details){.btn .btn-outline-primary target="_blank"}
 
 ---
 
-### ✅ Tasks to Complete - Module 1B
+### Tasks to Complete - Module 1B
 
 ::: {.task-list}
 
 ::: {.task-item}
-**Watch the lecture video** - CI Foundations (~10 min)
+**Watch the lecture video** - CI Foundations
 :::
 
 ::: {.task-item}
@@ -302,7 +293,6 @@ Respond in 2–3 sentences minimum.
 
 :::
 
----
 
 ::: {.next-module}
 Up next → [Week 2: The Pacific Context and CI Tools](week2.qmd)

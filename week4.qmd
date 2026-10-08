@@ -4,13 +4,9 @@ toc: true
 toc-title: "On this page"
 ---
 
-## Data to Decisions {#data-to-decisions}
+## Module 4: Data to Decisions {#data-to-decisions}
 
-::: {.module-tag}
-Module 4
-:::
-
-### 🪝 Hook
+### Background
 
 Imagine you have access to sea level data, reef health maps, and climate projections for your island. Now, imagine sitting across from a local official who has to decide where to invest limited infrastructure funds. What do you actually say?
 
@@ -18,7 +14,7 @@ This is the **last-mile problem** - the gap between what cyberinfrastructure pro
 
 ---
 
-### 🎬 Lecture Video
+### Lecture Video
 
 ::: {.video-placeholder}
 **Data to Decisions - Lecture Video**
@@ -32,7 +28,7 @@ title="Tools" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-### 🖥️ Hands-On Use Case - Regional Pacific NDC Hub
+### Hands-On Use Case - Regional Pacific NDC Hub
 
 **Nationally Determined Contributions (NDCs)** are climate commitments each country submits under the Paris Agreement - outlining what they plan to do to reduce emissions and adapt to climate change. The **Regional Pacific NDC Hub** supports 14 Pacific island nations in developing and implementing these plans, and their website brings together country profiles, climate commitments, and implementation resources in one place.
 
@@ -59,7 +55,7 @@ If your island country is not one of the 14 Hub member countries, browse the pro
 
 ---
 
-### 📋 Mini Assignment - Stakeholder + CI Pipeline Map
+### Mini Assignment - Stakeholder + CI Pipeline Map
 
 ::: {.assignment-box}
 **Week 4 Assignment - Stakeholder + CI Pipeline Map**
@@ -74,12 +70,12 @@ For your chosen island country and sustainability challenge, produce a structure
 
 Add your responses to the **Week 4 section of your Pacific CI Portfolio** Google Doc and submit the link in Google Classroom.
 
-[→ Submit Week 4 Assignment in Google Classroom](https://classroom.google.com){.btn .btn-primary target="_blank"}
+[→ Submit Week 4 Assignment in Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz/a/ODc3NTEwMjEzOTI0/details){.btn .btn-primary target="_blank"}
 :::
 
 ---
 
-### 💬 Discussion Prompt
+### Discussion Prompt
 
 **This week's discussion is in Google Classroom.**
 
@@ -87,7 +83,7 @@ Add your responses to the **Week 4 section of your Pacific CI Portfolio** Google
 
 Respond in 2–3 sentences.
 
-[→ Go to Week 4 Discussion in Google Classroom](https://classroom.google.com){.btn .btn-outline-primary target="_blank"}
+[→ Go to Week 4 Discussion in Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz/sa/ODc3NTA5ODQyODM4/details){.btn .btn-outline-primary target="_blank"}
 
 ---
 

@@ -2,11 +2,25 @@
 
 /* ── Hero banner ─────────────────────────── */
 .hero-banner {
-  background: linear-gradient(135deg, #1D9E75 0%, #0C447C 100%);
+  background-image: 
+    linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.65) 0%,
+      rgba(0, 0, 0, 0.45) 50%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url('images/ZOOM-BACKGROUND.jpg');
+  background-size: cover;
+  background-position: center center;
   color: white;
-  padding: 5rem 3rem;
-  margin: -1.5rem -1.5rem 3rem -1.5rem;
+  padding: 6rem 3rem;
+  margin: 0;
   text-align: center;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
 }
 
 .hero-banner h1 {
@@ -17,8 +31,8 @@
 }
 
 .hero-banner h3 {
-  color: rgba(255,255,255,0.85);
-  font-weight: 400;
+  color: rgba(255,255,255,0.9);
+  font-weight: 300;
   font-size: 1.15rem;
   max-width: 650px;
   margin: 0 auto 2rem auto;
@@ -30,6 +44,10 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+/* ── Center all headings ─────────────────── */
+h1, h2 {
+  text-align: center;
+}
 
 /* ── Course intro ────────────────────────── */
 .course-intro {
@@ -39,251 +57,130 @@
   line-height: 1.8;
 }
 
-/* ── Stats row ───────────────────────────── */
-.course-stats {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 3.5rem;
+/* ── Course outline table ────────────────── */
+.course-outline table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 3rem 0;
+  font-size: 0.88rem;
 }
 
-.stat-box {
-  background: #E1F5EE;
-  border-radius: 12px;
-  padding: 1.5rem 2rem;
-  text-align: center;
-  min-width: 120px;
-  font-size: 0.9rem;
-  color: #0F6E56;
+.course-outline table thead {
+  background: #1D9E75;
 }
 
-.stat-box strong {
-  display: block;
-  font-size: 2.2rem;
+.course-outline table thead th {
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.course-outline table tbody tr:nth-child(even) {
+  background: #f8f8f6;
+}
+
+.course-outline table tbody td {
+  padding: 0.9rem 1rem;
+  vertical-align: top;
+  border-bottom: 1px solid #eee;
+  font-weight: 300;
+  color: #555;
+}
+
+.course-outline table tbody td:first-child {
   font-weight: 700;
   color: #1D9E75;
-  line-height: 1;
-  margin-bottom: 0.3rem;
+  white-space: nowrap;
 }
 
-/* ── Week cards ──────────────────────────── */
-.week-cards {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.week-cards h2 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.week-card {
-  background: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin-bottom: 1rem;
-  border-left: 4px solid #1D9E75;
-  transition: box-shadow 0.2s;
-}
-
-.week-card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-}
-
-.week-card h3 {
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: #1D9E75;
-  margin-bottom: 0.25rem;
-}
-
-.week-card strong {
-  display: block;
-  font-size: 1.1rem;
-  color: #1A1A1A;
-  margin-bottom: 0.25rem;
-}
-
-.week-card p {
-  color: #555;
-  font-size: 0.92rem;
-  margin-bottom: 0.75rem;
-}
-
-.week-card a {
-  font-size: 0.9rem;
-  font-weight: 500;
-}
-
-/* ── Week cards grid ─────────────────────── */
-.week-cards-section {
-  max-width: 1000px;
-  margin: 0 auto 4rem auto;
-}
-
-.week-cards-section h2 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.week-cards-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
-}
-
-/* Last card (week 5-6) spans full width */
-.week-cards-grid .week-card:last-child {
-  grid-column: 1 / -1;
-}
-
-.week-card {
-  background: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
-  overflow: hidden;
-  transition: box-shadow 0.2s;
-}
-
-.week-card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-}
-
-.week-card-header {
-  background: #1D9E75;
-  padding: 0.6rem 1.25rem;
-}
-
-.week-card-header h3 {
-  color: white;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin: 0;
-}
-
-.week-card-body {
-  padding: 1.25rem;
-}
-
-.week-card-body strong {
-  display: block;
-  font-size: 1.05rem;
-  color: #1A1A1A;
-  margin-bottom: 0.3rem;
-}
-
-.week-card-body p {
-  color: #555;
-  font-size: 0.92rem;
-  margin-bottom: 0.75rem;
-}
-
-.week-card-body a {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: #185FA5;
-}
-
-.due-date {
-  background: #E6F1FB;
-  color: #0C447C;
-  font-size: 0.82rem;
-  font-weight: 500;
-  padding: 0.4rem 0.75rem;
-  border-radius: 6px;
-  margin-bottom: 0.75rem;
-  display: inline-block;
+.course-outline table tbody td:nth-child(2) {
+  font-weight: 700;
+  color: #1a1a1a;
 }
 
 /* ── Contact section ─────────────────────── */
 .contact-section {
-  background: #F1EFE8;
-  padding: 3rem;
-  margin: 0 -1.5rem -1.5rem -1.5rem;
-}
-
-.contact-section h2 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
+  gap: 3rem;
+  margin: 1.5rem 0 3rem 0;
   max-width: 750px;
-  margin: 0 auto;
 }
 
-.contact-card {
-  background: white;
-  border-radius: 12px;
-  padding: 1.5rem;
-  border-top: 3px solid #1D9E75;
-}
-
-.contact-card h3 {
-  font-size: 1rem;
+.contact-col h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #1D9E75;
+  font-weight: 700;
   margin-bottom: 0.75rem;
-  color: #1A1A1A;
 }
 
-.contact-card p {
-  font-size: 0.92rem;
+.contact-col p {
+  font-size: 0.88rem;
   color: #555;
-  line-height: 1.7;
+  font-weight: 300;
+  line-height: 1.8;
   margin: 0;
 }
 
-/* ── Video placeholder ───────────────────── */
-.video-placeholder {
-  background: #F1EFE8;
-  border-radius: 12px;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  border-left: 4px solid #1D9E75;
-  font-size: 0.95rem;
-  color: #555;
-  line-height: 1.7;
+.contact-col a {
+  color: #185FA5;
 }
 
-.video-placeholder strong {
-  display: block;
-  font-size: 1.1rem;
-  color: #1A1A1A;
-  margin-bottom: 0.5rem;
-}
 
-/* ── Setup cards ─────────────────────────── */
-.setup-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1.25rem;
+/* ── Setup steps ─────────────────────────── */
+.setup-steps {
   margin: 1.5rem 0 2rem 0;
 }
 
-.setup-card {
-  background: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
-  padding: 1.5rem;
-  border-top: 3px solid #1D9E75;
+.setup-step {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 0.75rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid #f0f0ee;
+  align-items: start;
 }
 
-.setup-card h3 {
-  font-size: 1rem;
+.setup-step:last-child {
+  border-bottom: none;
+}
+
+.setup-num {
+  font-size: 0.85rem;
+  font-weight: 700;
   color: #1D9E75;
-  margin-bottom: 0.75rem;
+  padding-top: 2px;
 }
 
-.setup-card p {
-  font-size: 0.92rem;
+.setup-content {
+  font-size: 0.88rem;
   color: #555;
-  line-height: 1.7;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.setup-content strong {
+  display: block;
+  font-size: 0.92rem;
+  color: #1a1a1a;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.setup-content p {
+  margin: 0 0 0.5rem 0;
+}
+
+.setup-content a {
+  color: #185FA5;
+  font-size: 0.85rem;
 }
 
 /* ── Outcomes grid ───────────────────────── */
@@ -484,4 +381,26 @@
   margin: 0.75rem 0;
   padding-left: 1.25rem;
   line-height: 1.8;
+}
+
+/* ── Discussion prompt ───────────────────── */
+.disc-prompt {
+  border-left: 3px solid #1D9E75;
+  padding-left: 1.25rem;
+  margin: 0.75rem 0 0.75rem 0;
+}
+
+.disc-prompt p {
+  font-size: 1rem;
+  color: #1a1a1a;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.disc-meta {
+  font-size: 0.9rem;
+  color: #aaa;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
 }

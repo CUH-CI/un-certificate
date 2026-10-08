@@ -4,13 +4,9 @@ toc: true
 toc-title: "On this page"
 ---
 
-## Sustainability in the Pacific {#sustainability-in-the-pacific}
+## Module 2A: Sustainability in the Pacific {#sustainability-in-the-pacific}
 
-::: {.module-tag}
-Module 2A
-:::
-
-### 🪝 Hook
+### Background
 
 Small Island Developing States make up less than 1% of global greenhouse gas emissions - yet they face some of the most severe consequences of climate change. Rising seas, intensifying storms, shrinking freshwater supplies, and collapsing fisheries aren't abstract future risks for Pacific communities. They are present-day realities.
 
@@ -22,7 +18,7 @@ But Pacific island nations are not passive victims. They are active leaders in s
 
 ---
 
-### 🎬 Lecture Video
+### Lecture Video
 
 ::: {.video-placeholder}
 **Sustainability in the Pacific - Lecture Video**
@@ -35,7 +31,7 @@ title="Sustainability in the Pacific" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-### 🌏 Hands-On Use Case - UNDP SIDS Data Platform
+### Hands-On Use Case - UNDP SIDS Data Platform
 
 The **UNDP SIDS Data Platform** is a cyberinfrastructure tool built specifically for Small Island Developing States - including country-level sustainability indicators, a GIS portal with geospatial datasets, and a Multidimensional Vulnerability Index across all SIDS regions including the Pacific.
 
@@ -72,7 +68,7 @@ Visit the [UNDP SIDS Data Platform](https://sids.data.undp.org/){target="_blank"
 
 :::
 
-### 💬 Discussion Prompt
+### Discussion Prompt
 
 **This week's discussion is in Google Classroom.**
 
@@ -80,23 +76,19 @@ Visit the [UNDP SIDS Data Platform](https://sids.data.undp.org/){target="_blank"
 
 Respond in 2–3 sentences.
 
-[→ Go to Week 2 Discussion in Google Classroom](https://classroom.google.com){.btn .btn-outline-primary target="_blank"}
+[→ Go to Week 2 Discussion in Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz/sa/ODc3NTA5MTE4OTM4/details){.btn .btn-outline-primary target="_blank"}
 
 ---
 
-## CI Tools {#tools}
+## Module 2B: CI Tools {#tools}
 
-::: {.module-tag}
-Module 2B
-:::
-
-### 🪝 Hook
+### Background
 
 Now that you have a sense of what sustainability looks like in the Pacific context, the next question is: what tools exist to support that work? This module surveys the cyberinfrastructure tool landscape - from data portals and science gateways to cloud platforms and real-time sensor networks. Some of these tools are already being used in the Pacific.
 
 ---
 
-### 🎬 Lecture Video
+### Lecture Video
 
 ::: {.video-placeholder}
 **CI Tools - Lecture Video**
@@ -110,7 +102,7 @@ title="Tools" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-### 🌊 Hands-On Use Case - PacIOOS
+### Hands-On Use Case - PacIOOS
 
 **PacIOOS (Pacific Islands Ocean Observing System)** is a real-time ocean and coastal monitoring network - buoys, wave sensors, and tide gauges - operating across Hawaiʻi and the Pacific Islands. It's a working example of a CI tool stack in action: sensors collect data, transmit it via satellite, store it in the cloud, and visualize it in a live dashboard accessible from any browser.
 
@@ -133,7 +125,7 @@ Visit the [PacIOOS data viewer](https://www.pacioos.hawaii.edu){target="_blank"}
 
 ---
 
-### 📋 Mini Assignment - CI Tool Stack
+### Mini Assignment - CI Tool Stack
 
 ::: {.assignment-box}
 **Week 2 Assignment - CI Tool Stack**
@@ -150,7 +142,7 @@ Using what you explored in the PacIOOS hands-on use case and the lecture, design
 
 Add your responses to the **Week 2 section of your Pacific CI Portfolio** Google Doc. When you're done, submit your portfolio link in Google Classroom.
 
-[→ Submit Week 2 Assignment in Google Classroom](https://classroom.google.com){.btn .btn-primary target="_blank"}
+[→ Submit Week 2 Assignment in Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz/a/ODc3NTA3OTU0NDQx/details){.btn .btn-primary target="_blank"}
 :::
 
 ---

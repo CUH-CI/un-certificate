@@ -8,9 +8,9 @@ toc-title: "On this page"
 
 ### Background
 
-Imagine you have access to sea level data, reef health maps, and climate projections for your island. Now, imagine sitting across from a local official who has to decide where to invest limited infrastructure funds. What do you actually say?
+Imagine you have access to sea level data, reef health maps, and climate projections for your island. If you are sitting across from a local official who has to decide where to invest limited infrastructure funds, what do you actually say?
 
-This is the **last-mile problem** - the gap between what cyberinfrastructure produces and what decision-makers can actually use. Data alone doesn't make decisions. Someone has to translate it, communicate it, and connect it to action. This module is about that gap - and how to bridge it.
+This is the **last-mile problem**. The last-mile problem is the gap between what cyberinfrastructure produces and what decision-makers can actually use. Data alone doesn't make decisions; someone has to translate it, communicate it, and connect it to action. This module is about that gap, and how to bridge it.
 
 ---
 
@@ -30,9 +30,9 @@ title="Tools" frameborder="0" allowfullscreen></iframe>
 
 ### Hands-On Use Case - Regional Pacific NDC Hub
 
-**Nationally Determined Contributions (NDCs)** are climate commitments each country submits under the Paris Agreement - outlining what they plan to do to reduce emissions and adapt to climate change. The **Regional Pacific NDC Hub** supports 14 Pacific island nations in developing and implementing these plans, and their website brings together country profiles, climate commitments, and implementation resources in one place.
+**Nationally Determined Contributions (NDCs)** are climate commitments each country submits under the Paris Agreement, outlining what they plan to do to reduce emissions and adapt to climate change. The **Regional Pacific NDC Hub** supports 14 Pacific island nations in developing and implementing these plans, and their website brings together country profiles, climate commitments, and implementation resources in one place.
 
-NDCs are a real example of the last-mile problem in action - they take scientific data and climate projections and translate them into government commitments and policy priorities.
+NDCs are a real example of the last-mile problem in action; they take scientific data and climate projections and translate them into government commitments and policy priorities.
 
 ::: {.fieldtrip-box}
 **Your task this module:**
@@ -50,7 +50,7 @@ If your island country is not one of the 14 Hub member countries, browse the pro
 :::
 
 ::: {.resource-link}
-📖 **Read more:** [CARE Principles for Indigenous Data Governance](https://static1.squarespace.com/static/5d3799de845604000199cd24/t/6397b363b502ff481fce6baf/1670886246948/CARE%2BPrinciples_One%2BPagers%2BFINAL_Oct_17_2019.pdf){target="_blank"} - Approximately 5 pages. Consider how each principle applies to Pacific data governance contexts.
+**Read more:** [CARE Principles for Indigenous Data Governance](https://static1.squarespace.com/static/5d3799de845604000199cd24/t/6397b363b502ff481fce6baf/1670886246948/CARE%2BPrinciples_One%2BPagers%2BFINAL_Oct_17_2019.pdf){target="_blank"} - Approximately 5 pages. Consider how each principle applies to Pacific data governance contexts.
 :::
 
 ---
@@ -79,21 +79,19 @@ Add your responses to the **Week 4 section of your Pacific CI Portfolio** Google
 
 **This week's discussion is in Google Classroom.**
 
-> *For the assignment, you mapped who is excluded from the data or the decision. Did this surprise you - and what does it tell you about where cyberinfrastructure needs to go next in the Pacific?*
+::: {.disc-prompt}
+For the assignment, you mapped who is excluded from the data or the decision. Did this surprise you - and what does it tell you about where cyberinfrastructure needs to go next in the Pacific?
+:::
 
+::: {.disc-meta}
 Respond in 2–3 sentences.
+:::
 
 [→ Go to Week 4 Discussion in Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz/sa/ODc3NTA5ODQyODM4/details){.btn .btn-outline-primary target="_blank"}
 
 ---
 
-### Closing Thoughts
-
-> *The gap between data and decisions is where cyberinfrastructure meets policy - and where you can make the most difference. Your policy brief starts now. You already have everything you need.*
-
----
-
-### ✅ Tasks to Complete - Module 4
+### Tasks to Complete - Module 4
 
 ::: {.task-list}
 
@@ -114,6 +112,12 @@ Respond in 2–3 sentences.
 :::
 
 :::
+
+---
+
+### Optional Module: CI for Nonprofits
+
+This optional module is for students working or interested in the nonprofit sector and goes more in depth on how cyberinfrastructure can be beneficial to your organizations. There are no assignments or discussions listed in this module. 
 
 ---
 

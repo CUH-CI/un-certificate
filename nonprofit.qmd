@@ -1,0 +1,160 @@
+---
+title: "Optional Module: CI for Nonprofits"
+toc: true
+toc-title: "On this page"
+---
+
+
+This module is for students working or interested in the nonprofit sector and goes more in depth on how cyberinfrastructure can be beneficial to your organizations.
+
+---
+
+## CI as a Tool
+
+You've spent the past four weeks learning about cyberinfrastructure with concepts surrounding cloud computing, satellite imagery, coral reef mapping, and the data lifecycle. This might feel far from your day-to-day work at a nonprofit.
+
+But here's the thing: if you work at a nonprofit, you're already using cyberinfrastructure - you just might not call it that.
+
+Your Google Drive is cloud storage. Your donor database is a data management system. Your program outcome spreadsheet is a data pipeline. The devices your staff use to collect field data are the hardware layer. The internet connection transmitting that data is the network layer. And you, the person designing those systems and making sense of the data, are the people layer.
+
+The question isn't whether your nonprofit uses CI. It's whether your CI stack is working well to support your mission.
+
+---
+
+## Real Example: Aloha Harvest
+
+Aloha Harvest is a Hawaiʻi-based food rescue nonprofit that rescues surplus food and redistributes it to communities across Oʻahu. Like many nonprofits, they needed to collect consistent data from partner agencies, but doing it manually was time-consuming, error-prone, and hard to aggregate.
+
+The solution was a lightweight CI stack built entirely with free tools:
+
+- **Hardware**: the phones and laptops agency staff already had
+- **Software**: Google Forms for data collection, Google Sheets for aggregation
+- **Data**: agency partners collect data for each food recipient
+- **Networks**: the internet connection transmitting form responses to a master sheet in real time
+- **People**: a data specialist building the system, agency staff using it, leadership reading the reports
+
+What were the results? A data collection system where agencies submit food recipient data on their own through a Google Form, it flows automatically into a Google Spreadsheet, and built-in calculations run without anyone manually compiling spreadsheets.
+
+That's cyberinfrastructure. It didn't require a supercomputer or a software engineer. It required thinking intentionally about the whole pipeline, from collection, storage, reporting, and capacity of the organization, and building something that works reliably for the people using it.
+
+---
+
+## What CI Can Do for Your Nonprofit
+
+The Aloha Harvest example shows what a functional CI stack looks like at the organizational level. But CI also connects nonprofits to data and infrastructure that already exists in the Pacific such as tools that can amplify your work without building systems from scratch.
+
+### Conservation and Environment
+
+SPREP's Pacific Islands Protected Area Portal (PIPAP) is a real example of regional CI infrastructure built specifically for Pacific conservation organizations. The [Palau country page](https://pipap.sprep.org/country/pw){target="_blank"} aggregates protected areas data, marine biodiversity records, state of environment reports, and invasive species data, all collected by Palau's Ministry of Natural Resources, conservation partners, and research institutions. That country-level data feeds into SPREP's regional Management Effectiveness Dashboard, where it contributes to Pacific-wide conservation reporting.
+
+Pacific conservation nonprofits can draw on this same infrastructure, using Allen Coral Atlas reef health data, PacIOOS ocean monitoring, and Pacific Data Hub environmental datasets to contextualize their own field work, strengthen grant applications, and contribute to regional reporting without building duplicate systems.
+
+### Community Health and Social Services
+
+Community health nonprofits can use the Hawaiʻi Health Data Warehouse to access community health, social determinants, and demographic data for Hawaiʻi, which provides context and benchmarks for program data without having to collect it themselves.
+
+The Pacific Data Hub is also a good source of Pacific data and can be explored by topics such as health, population, education, and more.
+
+### Disaster Preparedness and Resilience
+
+Disaster preparedness nonprofits in Hawaiʻi now have access to the [Oʻahu Hazard Explorer](https://www.honolulu.gov/myhazards){target="_blank"}. It is a CI tool launched by the City and County of Honolulu Department of Emergency Management in 2026 that brings tsunami evacuation zones, flood zones, wildfire risk areas, and dam evacuation areas into a single interactive map. Before this tool existed, organizations had to consult multiple separate websites to piece together a complete picture of community risk. That's exactly the CI gap this course talks about and what a well-designed platform can solve.
+
+For Pacific island nonprofits beyond Hawaiʻi, PacIOOS real-time ocean and coastal monitoring data and the climate projections explored in Week 3 provide evidence-based risk data for preparedness planning, community activities, and funder reporting.
+
+### Food Security and Fisheries
+
+Pacific Data Hub fisheries datasets and SPC regional food security indicators let food security nonprofits connect their local program data to the broader regional picture which can be useful for grant narratives, policy advocacy, and demonstrating the scale of the challenge their organization is addressing.
+
+---
+
+## Is Your CI Stack Working?
+
+Most nonprofit CI problems aren't obvious until something feels missing: a staff member leaves and doesn't leave data documentation, a hard drive fails, a funder asks for a report that takes three days to compile manually, or two programs are collecting the same data in incompatible formats.
+
+Here are five questions worth asking about your organization's current CI stack:
+
+1. **Hardware**: Are your staff working on devices reliable enough to do their jobs? Is data being stored on personal laptops that could be lost or stolen?
+2. **Software**: Are you using free or discounted tools you're actually entitled to? (More on this below.)
+3. **Data**: Are you collecting program data consistently, in a format you can actually analyze and report on?
+4. **Networks**: For island-based staff and partners, does your CI infrastructure work on a slow or intermittent internet connection?
+5. **People**: Does someone on your team understand your data systems well enough to maintain them, train new staff, and improve them over time?
+
+A gap in any one of these layers can break the whole pipeline. The CI stack concept gives you a framework for diagnosing where the problem actually is and where to focus limited resources.
+
+---
+
+## Free and Discounted Tools
+
+Many tech companies offer free or deeply discounted products for nonprofits. The gateway to almost all of them is **TechSoup**. TechSoup is a nonprofit technology network that verifies your organization's eligibility and connects you to donated or discounted products from hundreds of vendors.
+
+::: {.resource-link}
+**Start here:** [TechSoup](https://www.techsoup.org){target="_blank"} has a free membership tier, access to discounts on software, hardware, cloud services, and training.
+:::
+
+Here are examples of what is available through TechSoup and other vendors:
+
+- **Google for Nonprofits**: free Google Workspace (Gmail, Drive, Docs, Meet) plus up to $10,000/month in Google Ad Grants. [google.com/nonprofits](https://www.google.com/nonprofits/){target="_blank"}
+- **Microsoft for Nonprofits**: free and discounted Microsoft 365, Azure cloud services, and Dynamics 365 for donor and program management. [microsoft.com/nonprofits](https://www.microsoft.com/en-us/nonprofits){target="_blank"}
+- **AWS Nonprofit Credit Program**: $2,000 in AWS cloud credits annually via TechSoup. [techsoup.org/amazon-web-services](https://www.techsoup.org/amazon-web-services){target="_blank"}
+- **Canva for Nonprofits**: free premium Canva for reports, social media, and community resources. [canva.com/canva-for-nonprofits](https://www.canva.com/canva-for-nonprofits/){target="_blank"}
+- **Tableau for Nonprofits**: discounted Tableau license for data visualization and dashboards. [techsoup.org/tableau](https://www.techsoup.org/tableau){target="_blank"}
+
+---
+
+## Hawaiʻi and Pacific Resources
+
+Before building your own data systems from scratch, research what already exists in your region. There may be datasets, platforms, or partnerships that can save you significant time and strengthen your work.
+
+**For Hawaiʻi:**
+
+::: {.resource-link}
+**Hawaiʻi Health Data Warehouse (HHDW)**: community health, social determinants, and demographic data for Hawaiʻi. [hhdw.org](https://hhdw.org){target="_blank"}
+:::
+
+::: {.resource-link}
+**State of Hawaiʻi Dashboards**: analytical tools from the Department of Business, Economic Development & Tourism covering labor market, housing, population, migration, agriculture, language use, and more. Useful for nonprofits needing Hawaiʻi-specific economic and demographic context for grant applications and community needs assessments. [dbedt.hawaii.gov/economic/dashboards-main](https://dbedt.hawaii.gov/economic/dashboards-main/){target="_blank"}
+:::
+
+::: {.resource-link}
+**Aloha+ Challenge Dashboard**: tracks Hawaiʻi's progress on six sustainability goals covering clean energy, local food, natural resource management, solid waste, smart transportation, and green workforce. Useful for nonprofits working in sustainability and environmental advocacy. [alohachallenge.hawaii.gov](https://alohachallenge.hawaii.gov){target="_blank"}
+:::
+
+**For the Pacific:**
+
+::: {.resource-link}
+**Pacific Data Hub**: regional data aggregating climate, fisheries, ocean, and demographic data from 25 Pacific nations. [pacificdata.org](https://pacificdata.org){target="_blank"}
+:::
+
+::: {.resource-link}
+**PacIOOS**: real-time ocean and coastal monitoring across Hawaiʻi and the Pacific. [pacioos.hawaii.edu](https://www.pacioos.hawaii.edu){target="_blank"}
+:::
+
+::: {.resource-link}
+**UN SDG Data Portal**: country profiles tracking progress on Sustainable Development Goals, useful for Pacific island nonprofits reporting on international frameworks. [unstats.un.org/sdgs/dataportal/countryprofiles](https://unstats.un.org/sdgs/dataportal/countryprofiles){target="_blank"}
+:::
+
+Start locally with your local statistics office, regional government agencies, and local university extension programs. They are often the best sources of community-level data that the big regional platforms don't capture.
+
+---
+
+## University Partnerships
+
+Universities and nonprofits are natural partners when it comes to data and CI capacity. Universities have computing resources, student talent, and research expertise. Nonprofits have community relationships, real-world problems, and data that researchers want to work with. When the fit is right, a university partnership can meaningfully expand what a small nonprofit can do with data.
+
+Be realistic about what a partnership can offer: student projects take time to set up, research timelines don't always match grant cycles, and capacity on both sides is usually limited. But it's worth exploring — particularly with programs in sustainability, public health, marine science, data science, and social work that already have community engagement frameworks.
+
+---
+
+## Skill Up
+
+If this module sparked an interest in building your organization's data capacity further, here are free or low-cost resources to keep going:
+
+- **TechSoup Digital Skills Center**: free courses designed specifically for nonprofit professionals covering Microsoft tools, data management, and digital transformation. [page.techsoup.org/digital-skills-center](https://page.techsoup.org/digital-skills-center){target="_blank"}
+- **Google Data Analytics Certificate** (Coursera): free to audit, covers data collection, cleaning, analysis, and visualization. [coursera.org/google-data-analytics](https://www.coursera.org/professional-certificates/google-data-analytics){target="_blank"}
+- **DataCamp for Nonprofits**: free DataCamp access for eligible nonprofit organizations. [datacamp.com/donates](https://www.datacamp.com/donates){target="_blank"}
+- **Power BI**: free tier available, with a discounted license option through TechSoup for nonprofits already using Microsoft 365. [Microsoft Power BI Learning Path](https://learn.microsoft.com/en-us/training/paths/prepare-visualize-data-power-bi/){target="_blank"}
+
+---
+::: {.next-module}
+If you have any questions or would like to learn more about what is discussed in this module, feel free to send an email to victoria.delacruz@chaminade.edu
+:::

@@ -8,12 +8,12 @@ toc-title: "On this page"
 
 ### Background
 
-Small Island Developing States make up less than 1% of global greenhouse gas emissions - yet they face some of the most severe consequences of climate change. Rising seas, intensifying storms, shrinking freshwater supplies, and collapsing fisheries aren't abstract future risks for Pacific communities. They are present-day realities.
+Small Island Developing States make up less than 1% of global greenhouse gas emissions, yet they face some of the most severe consequences of climate change. Rising seas, intensifying storms, shrinking freshwater supplies, and collapsing fisheries aren't abstract future risks for Pacific communities; they are present-day realities.
 
-But Pacific island nations are not passive victims. They are active leaders in sustainability action - combining traditional ecological knowledge, community-based approaches, and scientific tools to adapt and respond. The question this module explores is: what does sustainability actually mean in this context, and how does data and cyberinfrastructure affect those efforts?
+Pacific island nations are active leaders in sustainability action through combining traditional ecological knowledge, community-based approaches, and scientific tools to adapt and respond. The question this module explores is: what does sustainability actually mean in this context, and how does data and cyberinfrastructure affect those efforts?
 
 ::: {.resource-link}
-📖 **Recommended reading:** [About Small Island Developing States (SIDS)](https://sdgs.un.org/smallislands/about-small-island-developing-states){target="_blank"} - Read to learn about what the Small Island Developing States are, who is it home to, challenges they face, and more. 
+**Recommended reading:** [About Small Island Developing States (SIDS)](https://sdgs.un.org/smallislands/about-small-island-developing-states){target="_blank"} - Read to learn about what the Small Island Developing States are, who is it home to, challenges they face, and more. 
 :::
 
 ---
@@ -33,7 +33,7 @@ title="Sustainability in the Pacific" frameborder="0" allowfullscreen></iframe>
 
 ### Hands-On Use Case - UNDP SIDS Data Platform
 
-The **UNDP SIDS Data Platform** is a cyberinfrastructure tool built specifically for Small Island Developing States - including country-level sustainability indicators, a GIS portal with geospatial datasets, and a Multidimensional Vulnerability Index across all SIDS regions including the Pacific.
+The **UNDP SIDS Data Platform** is a cyberinfrastructure tool built specifically for Small Island Developing States including country-level sustainability indicators, a GIS portal with geospatial datasets, and a Multidimensional Vulnerability Index across all SIDS regions including the Pacific.
 
 ::: {.fieldtrip-box}
 **Your task this module:**
@@ -42,15 +42,15 @@ Visit the [UNDP SIDS Data Platform](https://sids.data.undp.org/){target="_blank"
 
 **What to look for:**
 
-- Find your island country's profile - what sustainability indicators are tracked?
-- Look at the Multidimensional Vulnerability Index (MVI) - where does your island rank and why?
+- Find your island country's profile: what sustainability indicators are tracked?
+- Look at the Multidimensional Vulnerability Index (MVI): where does your island rank and why?
 - What data is missing or flagged as unavailable for your island?
 - How does this platform compare to the Pacific Data Hub you explored in Week 1?
 :::
 
 ---
 
-### ✅ Tasks to Complete - Module 2A
+### Tasks to Complete - Module 2A
 
 ::: {.task-list}
 
@@ -72,9 +72,14 @@ Visit the [UNDP SIDS Data Platform](https://sids.data.undp.org/){target="_blank"
 
 **This week's discussion is in Google Classroom.**
 
-> *Think about the island country you chose. What sustainability challenge concerns you most - and what data would a local decision-maker need to address it?*
+::: {.disc-prompt}
+Think about the island country you chose. What sustainability challenge concerns you most - and what data would a local decision-maker need to address it?
 
+:::
+
+::: {.disc-meta}
 Respond in 2–3 sentences.
+:::
 
 [→ Go to Week 2 Discussion in Google Classroom](https://classroom.google.com/c/ODU1NDg5NzA2Njkz/sa/ODc3NTA5MTE4OTM4/details){.btn .btn-outline-primary target="_blank"}
 
@@ -104,7 +109,7 @@ title="Tools" frameborder="0" allowfullscreen></iframe>
 
 ### Hands-On Use Case - PacIOOS
 
-**PacIOOS (Pacific Islands Ocean Observing System)** is a real-time ocean and coastal monitoring network - buoys, wave sensors, and tide gauges - operating across Hawaiʻi and the Pacific Islands. It's a working example of a CI tool stack in action: sensors collect data, transmit it via satellite, store it in the cloud, and visualize it in a live dashboard accessible from any browser.
+**PacIOOS (Pacific Islands Ocean Observing System)** is a real-time ocean and coastal monitoring network including buoys, wave sensors, and tide gauges operating across Hawaiʻi and the Pacific Islands. It's a working example of a CI tool stack in action: sensors collect data, transmit it via satellite, store it in the cloud, and visualize it in a live dashboard accessible from any browser.
 
 ::: {.fieldtrip-box}
 **Your task this module:**
@@ -120,7 +125,7 @@ Visit the [PacIOOS data viewer](https://www.pacioos.hawaii.edu){target="_blank"}
 :::
 
 ::: {.resource-link}
-📖 **Explore further:** [Science Gateways](https://support.access-ci.org/tools/science-gateways){target="_blank"} - check out some of the NSF-funded science gateways available and learn how to use them.
+**Explore further:** [Science Gateways](https://support.access-ci.org/tools/science-gateways){target="_blank"} - check out some of the NSF-funded science gateways available and learn how to use them.
 :::
 
 ---
@@ -147,7 +152,7 @@ Add your responses to the **Week 2 section of your Pacific CI Portfolio** Google
 
 ---
 
-### ✅ Tasks to Complete - Module 2B
+### Tasks to Complete - Module 2B
 
 ::: {.task-list}
 

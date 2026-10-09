@@ -32,6 +32,8 @@ website:
         menu:
          - text: "Data to Decisions"
            href: week4.qmd
+         - text: "Optional: CI for Nonprofits"
+           href: nonprofit.qmd
       - text: "Weeks 5 & 6"
         menu:
           - text: "Final Project"

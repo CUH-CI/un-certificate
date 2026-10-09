@@ -183,82 +183,6 @@ h1, h2 {
   font-size: 0.85rem;
 }
 
-/* ── Outcomes grid ───────────────────────── */
-.outcomes-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
-  margin: 1.5rem 0 2rem 0;
-}
-
-.outcome-card {
-  background: #E1F5EE;
-  border-radius: 12px;
-  padding: 1.5rem;
-}
-
-.outcome-card strong {
-  display: block;
-  font-size: 1rem;
-  color: #0F6E56;
-  margin-bottom: 0.5rem;
-}
-
-.outcome-card p {
-  font-size: 0.92rem;
-  color: #1A1A1A;
-  line-height: 1.7;
-  margin: 0;
-}
-
-/* ── Course flow steps ───────────────────── */
-.flow-steps {
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 1rem !important;
-  margin: 1.5rem 0 2rem 0 !important;
-}
-
-.flow-step {
-  display: flex !important;
-  gap: 1.25rem !important;
-  align-items: flex-start !important;
-}
-
-.flow-step-number {
-  min-width: 42px !important;
-  height: 42px !important;
-  border-radius: 50% !important;
-  background: #1D9E75 !important;
-  color: white !important;
-  font-size: 1.1rem !important;
-  font-weight: 700 !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  flex-shrink: 0 !important;
-  margin-top: 0 !important;
-  line-height: 1 !important;
-}
-
-.flow-step-content {
-  padding-top: 0.3rem !important;
-  font-size: 0.95rem !important;
-  color: #555 !important;
-  line-height: 1.7 !important;
-}
-
-.flow-step-content strong {
-  display: block !important;
-  color: #1A1A1A !important;
-  margin-bottom: 0.2rem !important;
-}
-
-.flow-step-number p {
-  margin: 0 !important;
-  padding: 0 !important;
-  line-height: 1 !important;
-}
 
 /* ── Task list ───────────────────────────── */
 .task-list {
@@ -305,30 +229,6 @@ h1, h2 {
 }
 
 .next-module p {
-  margin: 0 !important;
-  padding: 0 !important;
-  line-height: 1 !important;
-}
-
-/* ── Module tag ──────────────────────────── */
-.module-tag {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #1D9E75;
-  color: white;
-  font-size: 0.8rem;
-  font-weight: 600;
-  padding: 6px 12px;
-  border-radius: 20px;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  width: fit-content;
-  line-height: 1;
-}
-
-.module-tag p {
   margin: 0 !important;
   padding: 0 !important;
   line-height: 1 !important;

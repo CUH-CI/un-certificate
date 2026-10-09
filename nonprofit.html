@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Optional Module: CI for Nonprofits – Cyberinfrastructure Fundamentals</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-23856983b5e2931107ad67acb07a3d71.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Cyberinfrastructure Fundamentals</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-week-1" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Week 1</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-week-1">    
+        <li>
+    <a class="dropdown-item" href="./week1.html#course-introduction">
+ <span class="dropdown-text">1A: Course Introduction</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./week1.html#ci-foundations">
+ <span class="dropdown-text">1B: CI Foundations</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-week-2" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Week 2</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-week-2">    
+        <li>
+    <a class="dropdown-item" href="./week2.html#pacific-introduction">
+ <span class="dropdown-text">2A: Pacific Introduction</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./week2.html#tools">
+ <span class="dropdown-text">2B: Tools</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-week-3" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Week 3</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-week-3">    
+        <li>
+    <a class="dropdown-item" href="./week3.html#accessing-cyberinfrastructure">
+ <span class="dropdown-text">3A: Accessing Cyberinfrastructure</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./week3.html#how-it-works">
+ <span class="dropdown-text">3B: How It Works</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-week-4" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Week 4</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-week-4">    
+        <li>
+    <a class="dropdown-item" href="./week4.html">
+ <span class="dropdown-text">Data to Decisions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./nonprofit.html">
+ <span class="dropdown-text">Optional: CI for Nonprofits</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-weeks-5--6" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Weeks 5 &amp; 6</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-weeks-5--6">    
+        <li>
+    <a class="dropdown-item" href="./project.html">
+ <span class="dropdown-text">Final Project</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://classroom.google.com" target="_blank"> 
+<span class="menu-text">📋 Google Classroom</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#ci-as-a-tool" id="toc-ci-as-a-tool" class="nav-link active" data-scroll-target="#ci-as-a-tool">CI as a Tool</a></li>
+  <li><a href="#real-example-aloha-harvest" id="toc-real-example-aloha-harvest" class="nav-link" data-scroll-target="#real-example-aloha-harvest">Real Example: Aloha Harvest</a></li>
+  <li><a href="#what-ci-can-do-for-your-nonprofit" id="toc-what-ci-can-do-for-your-nonprofit" class="nav-link" data-scroll-target="#what-ci-can-do-for-your-nonprofit">What CI Can Do for Your Nonprofit</a>
+  <ul class="collapse">
+  <li><a href="#conservation-and-environment" id="toc-conservation-and-environment" class="nav-link" data-scroll-target="#conservation-and-environment">Conservation and Environment</a></li>
+  <li><a href="#community-health-and-social-services" id="toc-community-health-and-social-services" class="nav-link" data-scroll-target="#community-health-and-social-services">Community Health and Social Services</a></li>
+  <li><a href="#disaster-preparedness-and-resilience" id="toc-disaster-preparedness-and-resilience" class="nav-link" data-scroll-target="#disaster-preparedness-and-resilience">Disaster Preparedness and Resilience</a></li>
+  <li><a href="#food-security-and-fisheries" id="toc-food-security-and-fisheries" class="nav-link" data-scroll-target="#food-security-and-fisheries">Food Security and Fisheries</a></li>
+  </ul></li>
+  <li><a href="#is-your-ci-stack-working" id="toc-is-your-ci-stack-working" class="nav-link" data-scroll-target="#is-your-ci-stack-working">Is Your CI Stack Working?</a></li>
+  <li><a href="#free-and-discounted-tools" id="toc-free-and-discounted-tools" class="nav-link" data-scroll-target="#free-and-discounted-tools">Free and Discounted Tools</a></li>
+  <li><a href="#hawaiʻi-and-pacific-resources" id="toc-hawaiʻi-and-pacific-resources" class="nav-link" data-scroll-target="#hawaiʻi-and-pacific-resources">Hawaiʻi and Pacific Resources</a></li>
+  <li><a href="#university-partnerships" id="toc-university-partnerships" class="nav-link" data-scroll-target="#university-partnerships">University Partnerships</a></li>
+  <li><a href="#skill-up" id="toc-skill-up" class="nav-link" data-scroll-target="#skill-up">Skill Up</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Optional Module: CI for Nonprofits</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This module is for students working or interested in the nonprofit sector and goes more in depth on how cyberinfrastructure can be beneficial to your organizations.</p>
+<hr>
+<section id="ci-as-a-tool" class="level2">
+<h2 class="anchored" data-anchor-id="ci-as-a-tool">CI as a Tool</h2>
+<p>You’ve spent the past four weeks learning about cyberinfrastructure with concepts surrounding cloud computing, satellite imagery, coral reef mapping, and the data lifecycle. This might feel far from your day-to-day work at a nonprofit.</p>
+<p>But here’s the thing: if you work at a nonprofit, you’re already using cyberinfrastructure - you just might not call it that.</p>
+<p>Your Google Drive is cloud storage. Your donor database is a data management system. Your program outcome spreadsheet is a data pipeline. The devices your staff use to collect field data are the hardware layer. The internet connection transmitting that data is the network layer. And you, the person designing those systems and making sense of the data, are the people layer.</p>
+<p>The question isn’t whether your nonprofit uses CI. It’s whether your CI stack is working well to support your mission.</p>
+<hr>
+</section>
+<section id="real-example-aloha-harvest" class="level2">
+<h2 class="anchored" data-anchor-id="real-example-aloha-harvest">Real Example: Aloha Harvest</h2>
+<p>Aloha Harvest is a Hawaiʻi-based food rescue nonprofit that rescues surplus food and redistributes it to communities across Oʻahu. Like many nonprofits, they needed to collect consistent data from partner agencies, but doing it manually was time-consuming, error-prone, and hard to aggregate.</p>
+<p>The solution was a lightweight CI stack built entirely with free tools:</p>
+<ul>
+<li><strong>Hardware</strong>: the phones and laptops agency staff already had</li>
+<li><strong>Software</strong>: Google Forms for data collection, Google Sheets for aggregation</li>
+<li><strong>Data</strong>: agency partners collect data for each food recipient</li>
+<li><strong>Networks</strong>: the internet connection transmitting form responses to a master sheet in real time</li>
+<li><strong>People</strong>: a data specialist building the system, agency staff using it, leadership reading the reports</li>
+</ul>
+<p>What were the results? A data collection system where agencies submit food recipient data on their own through a Google Form, it flows automatically into a Google Spreadsheet, and built-in calculations run without anyone manually compiling spreadsheets.</p>
+<p>That’s cyberinfrastructure. It didn’t require a supercomputer or a software engineer. It required thinking intentionally about the whole pipeline, from collection, storage, reporting, and capacity of the organization, and building something that works reliably for the people using it.</p>
+<hr>
+</section>
+<section id="what-ci-can-do-for-your-nonprofit" class="level2">
+<h2 class="anchored" data-anchor-id="what-ci-can-do-for-your-nonprofit">What CI Can Do for Your Nonprofit</h2>
+<p>The Aloha Harvest example shows what a functional CI stack looks like at the organizational level. But CI also connects nonprofits to data and infrastructure that already exists in the Pacific such as tools that can amplify your work without building systems from scratch.</p>
+<section id="conservation-and-environment" class="level3">
+<h3 class="anchored" data-anchor-id="conservation-and-environment">Conservation and Environment</h3>
+<p>SPREP’s Pacific Islands Protected Area Portal (PIPAP) is a real example of regional CI infrastructure built specifically for Pacific conservation organizations. The <a href="https://pipap.sprep.org/country/pw" target="_blank">Palau country page</a> aggregates protected areas data, marine biodiversity records, state of environment reports, and invasive species data, all collected by Palau’s Ministry of Natural Resources, conservation partners, and research institutions. That country-level data feeds into SPREP’s regional Management Effectiveness Dashboard, where it contributes to Pacific-wide conservation reporting.</p>
+<p>Pacific conservation nonprofits can draw on this same infrastructure, using Allen Coral Atlas reef health data, PacIOOS ocean monitoring, and Pacific Data Hub environmental datasets to contextualize their own field work, strengthen grant applications, and contribute to regional reporting without building duplicate systems.</p>
+</section>
+<section id="community-health-and-social-services" class="level3">
+<h3 class="anchored" data-anchor-id="community-health-and-social-services">Community Health and Social Services</h3>
+<p>Community health nonprofits can use the Hawaiʻi Health Data Warehouse to access community health, social determinants, and demographic data for Hawaiʻi, which provides context and benchmarks for program data without having to collect it themselves.</p>
+<p>The Pacific Data Hub is also a good source of Pacific data and can be explored by topics such as health, population, education, and more.</p>
+</section>
+<section id="disaster-preparedness-and-resilience" class="level3">
+<h3 class="anchored" data-anchor-id="disaster-preparedness-and-resilience">Disaster Preparedness and Resilience</h3>
+<p>Disaster preparedness nonprofits in Hawaiʻi now have access to the <a href="https://www.honolulu.gov/myhazards" target="_blank">Oʻahu Hazard Explorer</a>. It is a CI tool launched by the City and County of Honolulu Department of Emergency Management in 2026 that brings tsunami evacuation zones, flood zones, wildfire risk areas, and dam evacuation areas into a single interactive map. Before this tool existed, organizations had to consult multiple separate websites to piece together a complete picture of community risk. That’s exactly the CI gap this course talks about and what a well-designed platform can solve.</p>
+<p>For Pacific island nonprofits beyond Hawaiʻi, PacIOOS real-time ocean and coastal monitoring data and the climate projections explored in Week 3 provide evidence-based risk data for preparedness planning, community activities, and funder reporting.</p>
+</section>
+<section id="food-security-and-fisheries" class="level3">
+<h3 class="anchored" data-anchor-id="food-security-and-fisheries">Food Security and Fisheries</h3>
+<p>Pacific Data Hub fisheries datasets and SPC regional food security indicators let food security nonprofits connect their local program data to the broader regional picture which can be useful for grant narratives, policy advocacy, and demonstrating the scale of the challenge their organization is addressing.</p>
+<hr>
+</section>
+</section>
+<section id="is-your-ci-stack-working" class="level2">
+<h2 class="anchored" data-anchor-id="is-your-ci-stack-working">Is Your CI Stack Working?</h2>
+<p>Most nonprofit CI problems aren’t obvious until something feels missing: a staff member leaves and doesn’t leave data documentation, a hard drive fails, a funder asks for a report that takes three days to compile manually, or two programs are collecting the same data in incompatible formats.</p>
+<p>Here are five questions worth asking about your organization’s current CI stack:</p>
+<ol type="1">
+<li><strong>Hardware</strong>: Are your staff working on devices reliable enough to do their jobs? Is data being stored on personal laptops that could be lost or stolen?</li>
+<li><strong>Software</strong>: Are you using free or discounted tools you’re actually entitled to? (More on this below.)</li>
+<li><strong>Data</strong>: Are you collecting program data consistently, in a format you can actually analyze and report on?</li>
+<li><strong>Networks</strong>: For island-based staff and partners, does your CI infrastructure work on a slow or intermittent internet connection?</li>
+<li><strong>People</strong>: Does someone on your team understand your data systems well enough to maintain them, train new staff, and improve them over time?</li>
+</ol>
+<p>A gap in any one of these layers can break the whole pipeline. The CI stack concept gives you a framework for diagnosing where the problem actually is and where to focus limited resources.</p>
+<hr>
+</section>
+<section id="free-and-discounted-tools" class="level2">
+<h2 class="anchored" data-anchor-id="free-and-discounted-tools">Free and Discounted Tools</h2>
+<p>Many tech companies offer free or deeply discounted products for nonprofits. The gateway to almost all of them is <strong>TechSoup</strong>. TechSoup is a nonprofit technology network that verifies your organization’s eligibility and connects you to donated or discounted products from hundreds of vendors.</p>
+<div class="resource-link">
+<p><strong>Start here:</strong> <a href="https://www.techsoup.org" target="_blank">TechSoup</a> has a free membership tier, access to discounts on software, hardware, cloud services, and training.</p>
+</div>
+<p>Here are examples of what is available through TechSoup and other vendors:</p>
+<ul>
+<li><strong>Google for Nonprofits</strong>: free Google Workspace (Gmail, Drive, Docs, Meet) plus up to $10,000/month in Google Ad Grants. <a href="https://www.google.com/nonprofits/" target="_blank">google.com/nonprofits</a></li>
+<li><strong>Microsoft for Nonprofits</strong>: free and discounted Microsoft 365, Azure cloud services, and Dynamics 365 for donor and program management. <a href="https://www.microsoft.com/en-us/nonprofits" target="_blank">microsoft.com/nonprofits</a></li>
+<li><strong>AWS Nonprofit Credit Program</strong>: $2,000 in AWS cloud credits annually via TechSoup. <a href="https://www.techsoup.org/amazon-web-services" target="_blank">techsoup.org/amazon-web-services</a></li>
+<li><strong>Canva for Nonprofits</strong>: free premium Canva for reports, social media, and community resources. <a href="https://www.canva.com/canva-for-nonprofits/" target="_blank">canva.com/canva-for-nonprofits</a></li>
+<li><strong>Tableau for Nonprofits</strong>: discounted Tableau license for data visualization and dashboards. <a href="https://www.techsoup.org/tableau" target="_blank">techsoup.org/tableau</a></li>
+</ul>
+<hr>
+</section>
+<section id="hawaiʻi-and-pacific-resources" class="level2">
+<h2 class="anchored" data-anchor-id="hawaiʻi-and-pacific-resources">Hawaiʻi and Pacific Resources</h2>
+<p>Before building your own data systems from scratch, research what already exists in your region. There may be datasets, platforms, or partnerships that can save you significant time and strengthen your work.</p>
+<p><strong>For Hawaiʻi:</strong></p>
+<div class="resource-link">
+<p><strong>Hawaiʻi Health Data Warehouse (HHDW)</strong>: community health, social determinants, and demographic data for Hawaiʻi. <a href="https://hhdw.org" target="_blank">hhdw.org</a></p>
+</div>
+<div class="resource-link">
+<p><strong>State of Hawaiʻi Dashboards</strong>: analytical tools from the Department of Business, Economic Development &amp; Tourism covering labor market, housing, population, migration, agriculture, language use, and more. Useful for nonprofits needing Hawaiʻi-specific economic and demographic context for grant applications and community needs assessments. <a href="https://dbedt.hawaii.gov/economic/dashboards-main/" target="_blank">dbedt.hawaii.gov/economic/dashboards-main</a></p>
+</div>
+<div class="resource-link">
+<p><strong>Aloha+ Challenge Dashboard</strong>: tracks Hawaiʻi’s progress on six sustainability goals covering clean energy, local food, natural resource management, solid waste, smart transportation, and green workforce. Useful for nonprofits working in sustainability and environmental advocacy. <a href="https://alohachallenge.hawaii.gov" target="_blank">alohachallenge.hawaii.gov</a></p>
+</div>
+<p><strong>For the Pacific:</strong></p>
+<div class="resource-link">
+<p><strong>Pacific Data Hub</strong>: regional data aggregating climate, fisheries, ocean, and demographic data from 25 Pacific nations. <a href="https://pacificdata.org" target="_blank">pacificdata.org</a></p>
+</div>
+<div class="resource-link">
+<p><strong>PacIOOS</strong>: real-time ocean and coastal monitoring across Hawaiʻi and the Pacific. <a href="https://www.pacioos.hawaii.edu" target="_blank">pacioos.hawaii.edu</a></p>
+</div>
+<div class="resource-link">
+<p><strong>UN SDG Data Portal</strong>: country profiles tracking progress on Sustainable Development Goals, useful for Pacific island nonprofits reporting on international frameworks. <a href="https://unstats.un.org/sdgs/dataportal/countryprofiles" target="_blank">unstats.un.org/sdgs/dataportal/countryprofiles</a></p>
+</div>
+<p>Start locally with your local statistics office, regional government agencies, and local university extension programs. They are often the best sources of community-level data that the big regional platforms don’t capture.</p>
+<hr>
+</section>
+<section id="university-partnerships" class="level2">
+<h2 class="anchored" data-anchor-id="university-partnerships">University Partnerships</h2>
+<p>Universities and nonprofits are natural partners when it comes to data and CI capacity. Universities have computing resources, student talent, and research expertise. Nonprofits have community relationships, real-world problems, and data that researchers want to work with. When the fit is right, a university partnership can meaningfully expand what a small nonprofit can do with data.</p>
+<p>Be realistic about what a partnership can offer: student projects take time to set up, research timelines don’t always match grant cycles, and capacity on both sides is usually limited. But it’s worth exploring — particularly with programs in sustainability, public health, marine science, data science, and social work that already have community engagement frameworks.</p>
+<hr>
+</section>
+<section id="skill-up" class="level2">
+<h2 class="anchored" data-anchor-id="skill-up">Skill Up</h2>
+<p>If this module sparked an interest in building your organization’s data capacity further, here are free or low-cost resources to keep going:</p>
+<ul>
+<li><strong>TechSoup Digital Skills Center</strong>: free courses designed specifically for nonprofit professionals covering Microsoft tools, data management, and digital transformation. <a href="https://page.techsoup.org/digital-skills-center" target="_blank">page.techsoup.org/digital-skills-center</a></li>
+<li><strong>Google Data Analytics Certificate</strong> (Coursera): free to audit, covers data collection, cleaning, analysis, and visualization. <a href="https://www.coursera.org/professional-certificates/google-data-analytics" target="_blank">coursera.org/google-data-analytics</a></li>
+<li><strong>DataCamp for Nonprofits</strong>: free DataCamp access for eligible nonprofit organizations. <a href="https://www.datacamp.com/donates" target="_blank">datacamp.com/donates</a></li>
+<li><strong>Power BI</strong>: free tier available, with a discounted license option through TechSoup for nonprofits already using Microsoft 365. <a href="https://learn.microsoft.com/en-us/training/paths/prepare-visualize-data-power-bi/" target="_blank">Microsoft Power BI Learning Path</a></li>
+</ul>
+<hr>
+<div class="next-module">
+<p>If you have any questions or would like to learn more about what is discussed in this module, feel free to send an email to victoria.delacruz@chaminade.edu</p>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/CUH-CI\.github\.io\/un-certificate\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Cyberinfrastructure Fundamentals</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Chaminade University of Honolulu</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

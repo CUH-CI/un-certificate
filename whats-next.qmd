@@ -1,0 +1,74 @@
+---
+title: "What's Next?"
+toc: true
+toc-title: "On this page"
+---
+
+Now that you've completed the course, let's discuss some other upskilling opportunities we have available for students and working professionals in the U.S. and U.S. Affiliated Pacific.
+
+---
+
+## Short-Course Certifications
+
+Every semester, we'll offer different short-course certifications on topics relevant to emerging technologies. They follow the same format - 6 weeks and completely online. Here is our tentative short-course portfolio for the following year:
+
+*Spring 2027*
+
+- GIS Fundamentals
+- SDG Analytics in R
+- Agentic AI For Security & Resilience
+
+*Summer 2027*
+
+- GIS Advanced
+- Blockhain, Zero Trust and Cybersecurity
+
+*Fall 2027*
+
+- VITA-AI: Virtue Innovation Technology and Agency in AI
+- Decision Science
+
+::: {.task-item}
+**Sign up for a short-course** - Register using this [link](https://tinyurl.com/cuh-dataskills). If you have any questions about a specific course, send an email to victoria.delacruz@chaminade.edu
+:::
+
+---
+
+## TechSkills Program
+
+TechSkills is an online training program that provides a first look into the world of data science, AI, and cyberinfrastructure. It leverages [DataCamp](https://www.datacamp.com/?utm_cid=1565610606&utm_aid=144928624250&utm_campaign=220808_1-ps-brd~brd~branded-pure_2-b2c_3-nam_4-rtw_5-na_6-na_7-le_8-pdsh-go_9-b-e_10-na_11-na&utm_loc=9032810-&utm_mtd=e-c&utm_kw=datacamp&utm_source=google&utm_medium=paid_search&utm_content=ps-other~nam-en~brd~pure~pure&gad_source=1&gad_campaignid=1565610606&gbraid=0AAAAADQ9WsFSfyi3nNNe-V9cpkGOCsTZQ&gclid=CjwKCAiAqabXBhBUEiwAw_SQpfGF90AE4W-ey9ZF5Z-OyzjX4GY7B9qXjrje6G5Vs-iq6w9zDnRveRoCiLEQAvD_BwE), a data & AI upskilling platform.
+
+There are four tracks you can complete through TechSkills:
+
+- Data Science
+- AI
+- Cyberinfrastructure
+- Power BI
+
+Once you complete the tracks, you'll earn a National Science Foundation/United Nations CIFAL Certificate of Complete and DataCamp credentials. Both can be uploaded to your LinkedIn!
+
+We have the Fundamentals and Advanced programs. You are eligible for a track on the Advanced program upon completion of the same track from the Fundamentals program.
+
+TechSkills is free for students and working professionals in the U.S. and U.S. Affiliated Pacific. Participants can be accepted on a rolling basis. 
+
+::: {.task-item}
+**Sign up for TechSkills** - Register using this [link](https://tinyurl.com/cuh-techskills). If you do register, send an email to victoria.delacruz@chaminade.edu so we can get you started with the program. 
+
+:::
+
+---
+
+## Data Science Certificates at Chaminade University of Honolulu
+
+---
+
+## LinkedIn
+
+Don't forget to add your Cyberinfrastructure Fundamentals certificate to your LinkedIn profile! Check out these [slides](https://canva.link/h8xuz1m7zvhqjnx) on how to add your certificate to your profile.
+
+We tend to post most of our opportunities on LinkedIn, so keep an eye out for them or send me a request to connect. 
+
+::: {.next-module}
+To learn more about these opportunities, email victoria.delacruz@chaminade.edu
+
+:::

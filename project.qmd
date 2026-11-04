@@ -154,6 +154,10 @@ Week 6 is your finishing and submission week. Incorporate feedback from your Wee
 
 :::
 
+### What's Next?
+
+As you wrap up your final project and certification, we have some avenues for you to continue your data science, AI, and cyberinfrastructure journey. To learn more about these opportunities, visit this [page](https://cuh-ci.github.io/un-certificate/whats-next.html). 
+
 ---
 
 ### Good Luck with Your Final Project!

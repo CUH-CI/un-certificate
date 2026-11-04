@@ -81,49 +81,18 @@ By the end of this course you will be able to:
 
 Each week follows the same rhythm - so once you know the pattern, you always know what to expect.
 
-::: {.flow-steps}
 
-::: {.flow-step}
-::: {.flow-step-number}
-1
-:::
-::: {.flow-step-content}
-**Watch the lecture video**
+1. **Watch the lecture video**
 Each module has a short lecture video embedded on the week's page. Watch it first before moving on.
-:::
-:::
 
-::: {.flow-step}
-::: {.flow-step-number}
-2
-:::
-::: {.flow-step-content}
-**Read through the module**
+2. **Read through the module**
 Read through the week's content that are reflected in the lecture video.
-:::
-:::
 
-::: {.flow-step}
-::: {.flow-step-number}
-3
-:::
-::: {.flow-step-content}
-**Complete the mini-assignment**
+3. **Complete the mini-assignment**
 As described in the mini-assignment for each week, add a new section to your Pacific CI Portfolio and submit the link in Google Classroom by Sunday 11:59pm HST.
-:::
-:::
 
-::: {.flow-step}
-::: {.flow-step-number}
-4
-:::
-::: {.flow-step-content}
-**Join the discussion**
+4. **Join the discussion**
 Respond to the weekly discussion prompt in Google Classroom - 2–3 sentences minimum.
-:::
-:::
-
-:::
 
 ---
 

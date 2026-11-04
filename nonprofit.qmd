@@ -23,7 +23,7 @@ The question isn't whether your nonprofit uses CI. It's whether your CI stack is
 
 ## Real Example: Aloha Harvest
 
-Aloha Harvest is a Hawaiʻi-based food rescue nonprofit that rescues surplus food and redistributes it to communities across Oʻahu. Like many nonprofits, they needed to collect consistent data from partner agencies, but doing it manually was time-consuming, error-prone, and hard to aggregate.
+[Aloha Harvest](https://alohaharvest.org/) is a Hawaiʻi-based food rescue nonprofit that rescues surplus food and redistributes it to communities across Oʻahu. Like many nonprofits, they needed to collect consistent data from partner agencies, but doing it manually was time-consuming, error-prone, and hard to aggregate.
 
 The solution was a lightweight CI stack built entirely with free tools:
 
@@ -51,15 +51,15 @@ Pacific conservation nonprofits can draw on this same infrastructure, using Alle
 
 ### Community Health and Social Services
 
-Community health nonprofits can use the Hawaiʻi Health Data Warehouse to access community health, social determinants, and demographic data for Hawaiʻi, which provides context and benchmarks for program data without having to collect it themselves.
+Community health nonprofits can use the [Hawaiʻi Health Data Warehouse](https://hhdw.org/) to access community health, social determinants, and demographic data for Hawaiʻi, which provides context and benchmarks for program data without having to collect it themselves.
 
-The Pacific Data Hub is also a good source of Pacific data and can be explored by topics such as health, population, education, and more.
+The Pacific Data Hub is also a good source of Pacific data and can be explored by topics such as health, population, education, and more.The [SIDS Data Portal](https://sids.data.undp.org/) should have data on different community health and social development indicators for several islands.
 
 ### Disaster Preparedness and Resilience
 
 Disaster preparedness nonprofits in Hawaiʻi now have access to the [Oʻahu Hazard Explorer](https://www.honolulu.gov/myhazards){target="_blank"}. It is a CI tool launched by the City and County of Honolulu Department of Emergency Management in 2026 that brings tsunami evacuation zones, flood zones, wildfire risk areas, and dam evacuation areas into a single interactive map. Before this tool existed, organizations had to consult multiple separate websites to piece together a complete picture of community risk. That's exactly the CI gap this course talks about and what a well-designed platform can solve.
 
-For Pacific island nonprofits beyond Hawaiʻi, PacIOOS real-time ocean and coastal monitoring data and the climate projections explored in Week 3 provide evidence-based risk data for preparedness planning, community activities, and funder reporting.
+For Pacific island nonprofits beyond Hawaiʻi, PacIOOS's real-time ocean and coastal monitoring data provide evidence-based risk data for preparedness planning, community activities, and funder reporting. Other decision support tools can be found at the [Pacific Climate Change Portal](https://www.pacificclimatechange.net/content/decision-support-tools). US Territories can use this [disaster data dashboard](https://disasterdata.io/) to view historical FEMA data.
 
 ### Food Security and Fisheries
 
@@ -107,31 +107,25 @@ Before building your own data systems from scratch, research what already exists
 
 **For Hawaiʻi:**
 
-::: {.resource-link}
-**Hawaiʻi Health Data Warehouse (HHDW)**: community health, social determinants, and demographic data for Hawaiʻi. [hhdw.org](https://hhdw.org){target="_blank"}
-:::
+- **Hawaiʻi Health Data Warehouse (HHDW)**: community health, social determinants, and demographic data for Hawaiʻi. [hhdw.org](https://hhdw.org)
 
-::: {.resource-link}
-**State of Hawaiʻi Dashboards**: analytical tools from the Department of Business, Economic Development & Tourism covering labor market, housing, population, migration, agriculture, language use, and more. Useful for nonprofits needing Hawaiʻi-specific economic and demographic context for grant applications and community needs assessments. [dbedt.hawaii.gov/economic/dashboards-main](https://dbedt.hawaii.gov/economic/dashboards-main/){target="_blank"}
-:::
 
-::: {.resource-link}
-**Aloha+ Challenge Dashboard**: tracks Hawaiʻi's progress on six sustainability goals covering clean energy, local food, natural resource management, solid waste, smart transportation, and green workforce. Useful for nonprofits working in sustainability and environmental advocacy. [alohachallenge.hawaii.gov](https://alohachallenge.hawaii.gov){target="_blank"}
-:::
+- **State of Hawaiʻi Dashboards**: analytical tools from the Department of Business, Economic Development & Tourism covering labor market, housing, population, migration, agriculture, language use, and more. Useful for nonprofits needing Hawaiʻi-specific economic and demographic context for grant applications and community needs assessments. [dbedt.hawaii.gov/economic/dashboards-main](https://dbedt.hawaii.gov/economic/dashboards-main/)
+
+
+- **Aloha+ Challenge Dashboard**: tracks Hawaiʻi's progress on six sustainability goals covering clean energy, local food, natural resource management, solid waste, smart transportation, and green workforce. Useful for nonprofits working in sustainability and environmental advocacy. [alohachallenge.hawaii.gov](https://alohachallenge.hawaii.gov)
+
 
 **For the Pacific:**
 
-::: {.resource-link}
-**Pacific Data Hub**: regional data aggregating climate, fisheries, ocean, and demographic data from 25 Pacific nations. [pacificdata.org](https://pacificdata.org){target="_blank"}
-:::
 
-::: {.resource-link}
-**PacIOOS**: real-time ocean and coastal monitoring across Hawaiʻi and the Pacific. [pacioos.hawaii.edu](https://www.pacioos.hawaii.edu){target="_blank"}
-:::
+- **Pacific Data Hub**: regional data aggregating climate, fisheries, ocean, and demographic data from 25 Pacific nations. [pacificdata.org](https://pacificdata.org){target="_blank"}
 
-::: {.resource-link}
-**UN SDG Data Portal**: country profiles tracking progress on Sustainable Development Goals, useful for Pacific island nonprofits reporting on international frameworks. [unstats.un.org/sdgs/dataportal/countryprofiles](https://unstats.un.org/sdgs/dataportal/countryprofiles){target="_blank"}
-:::
+
+- **PacIOOS**: real-time ocean and coastal monitoring across Hawaiʻi and the Pacific. [pacioos.hawaii.edu](https://www.pacioos.hawaii.edu){target="_blank"}
+
+
+- **UN SDG Data Portal**: country profiles tracking progress on Sustainable Development Goals, useful for Pacific island nonprofits reporting on international frameworks. [unstats.un.org/sdgs/dataportal/countryprofiles](https://unstats.un.org/sdgs/dataportal/countryprofiles){target="_blank"}
 
 Start locally with your local statistics office, regional government agencies, and local university extension programs. They are often the best sources of community-level data that the big regional platforms don't capture.
 
@@ -141,7 +135,9 @@ Start locally with your local statistics office, regional government agencies, a
 
 Universities and nonprofits are natural partners when it comes to data and CI capacity. Universities have computing resources, student talent, and research expertise. Nonprofits have community relationships, real-world problems, and data that researchers want to work with. When the fit is right, a university partnership can meaningfully expand what a small nonprofit can do with data.
 
-Be realistic about what a partnership can offer: student projects take time to set up, research timelines don't always match grant cycles, and capacity on both sides is usually limited. But it's worth exploring — particularly with programs in sustainability, public health, marine science, data science, and social work that already have community engagement frameworks.
+::: {.resource-link}
+If you have an idea for a data project for your nonprofit or organization, reach out to our Data, AI and Research team by emailing victoria.delacruz@chaminade.edu.
+:::
 
 ---
 

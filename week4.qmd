@@ -117,7 +117,7 @@ Respond in 2–3 sentences.
 
 ### Optional Module: CI for Nonprofits
 
-This optional module is for students working or interested in the nonprofit sector and goes more in depth on how cyberinfrastructure can be beneficial to your organizations. There are no assignments or discussions listed in this module. 
+This [optional module](https://cuh-ci.github.io/un-certificate/nonprofit.html) is for students working or interested in the nonprofit sector and goes more in depth on how cyberinfrastructure can be beneficial to your organizations. There are no assignments or discussions listed in this module. 
 
 ---
 
